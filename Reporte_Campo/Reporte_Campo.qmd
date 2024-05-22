@@ -66,41 +66,11 @@ For detailed instructions regarding the elsevier article class, see
 
 # Introducción
 
-Here are two sample references: @Feynman1963118 @Dirac1953888.
-
-By default, natbib will be used with the `authoryear` style, set in
-`classoption` variable in YAML. You can sets extra options with
-`natbiboptions` variable in YAML header. Example
-
-```         
-natbiboptions: longnamesfirst,angle,semicolon
-```
-
-There are various more specific bibliography styles available at
-<https://support.stmdocs.in/wiki/index.php?title=Model-wise_bibliographic_style_files>.
-To use one of these, add it in the header using, for example,
-`biblio-style: model1-num-names`.
-
-## Using CSL
-
-If `cite-method` is set to `citeproc` in `elsevier_article()`, then
-pandoc is used for citations instead of `natbib`. In this case, the
-`csl` option is used to format the references. By default, this template
-will provide an appropriate style, but alternative `csl` files are
-available from <https://www.zotero.org/styles?q=elsevier>. These can be
-downloaded and stored locally, or the url can be used as in the example
-header.
-
 # Métodos
 
-Here is an equation: $$ 
-  f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
-  \left(\frac{x}{\beta}\right)^{\alpha-1}
-  e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
-  \alpha,\beta,x > 0 .
-$$
-
-Inline equations work as well: $\sum_{i = 2}^\infty\{\alpha_i^\beta\}$
+El área de estudio de este trabajo fueron dos playas ubicadas en la
+costa noreste de Yucatán, México, siendo estas Dzilam de Bravo y El
+Cuyo.
 
 # Resultados
 
