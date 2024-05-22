@@ -63,8 +63,12 @@ humanas, especialmente porque hay una tendencia que favorece el
 desarrollo de nucleos poblacionales cercanos a la costa debido a que
 facilita actividades como el turismo y la pesca @barragán2015 en
 especifico para estas dos actividades es importante conocer la
-biodiversidad de los sistemas marinos para poder aprovechar y conservar
-sus bienes y servicios
+biodiversidad de los sistemas marinos para poder aprovecharlos y
+conservarlos adecuadamente. Los peces en particular son un grupo de
+organismos muy conocido y abundante, tanto que representan casi la mitad
+de las especies de vertebrados a escala global @bingpeng2018 resaltando
+así su importancia tanto en sistemas naturales como para la provisión de
+servicios ecosistémicos @rönnbäck2007
 
 # Bibliography styles
 
