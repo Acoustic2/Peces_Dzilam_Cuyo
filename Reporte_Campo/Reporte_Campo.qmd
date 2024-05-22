@@ -76,7 +76,9 @@ conservarlos adecuadamente. Los peces en particular son un grupo de
 organismos muy conocido y abundante, tanto que representan casi la mitad
 de las especies de vertebrados a escala global @bingpeng2018 resaltando
 así su importancia tanto en sistemas naturales como para la provisión de
-servicios ecosistémicos @rönnbäck2007
+servicios ecosistémicos @rönnbäck2007. Por estas razones, este estudio
+se centra en caracterizar la diversidad de peces en la zona costera,
+para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo.
 
 # Métodos
 
