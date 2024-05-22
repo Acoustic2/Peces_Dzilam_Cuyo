@@ -51,39 +51,49 @@ format:
       formatting: preprint
       model: 3p
       cite-style: super
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-Please make sure that your manuscript follows the guidelines in the 
-Guide for Authors of the relevant journal. It is not necessary to 
-typeset your manuscript in exactly the same way as an article, 
-unless you are submitting to a camera-ready copy (CRC) journal.
+Please make sure that your manuscript follows the guidelines in the
+Guide for Authors of the relevant journal. It is not necessary to
+typeset your manuscript in exactly the same way as an article, unless
+you are submitting to a camera-ready copy (CRC) journal.
 
-For detailed instructions regarding the elsevier article class, see   <https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions>
+For detailed instructions regarding the elsevier article class, see
+<https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions>
 
-# Bibliography styles
+# Introducción
 
-Here are two sample references:  @Feynman1963118 @Dirac1953888.
+Here are two sample references: @Feynman1963118 @Dirac1953888.
 
-By default, natbib will be used with the `authoryear` style, set in `classoption` variable in YAML. 
-You can sets extra options with `natbiboptions` variable in YAML header. Example 
+By default, natbib will be used with the `authoryear` style, set in
+`classoption` variable in YAML. You can sets extra options with
+`natbiboptions` variable in YAML header. Example
 
-```
+```         
 natbiboptions: longnamesfirst,angle,semicolon
 ```
 
 There are various more specific bibliography styles available at
-<https://support.stmdocs.in/wiki/index.php?title=Model-wise_bibliographic_style_files>. 
-To use one of these, add it in the header using, for example, `biblio-style: model1-num-names`.
+<https://support.stmdocs.in/wiki/index.php?title=Model-wise_bibliographic_style_files>.
+To use one of these, add it in the header using, for example,
+`biblio-style: model1-num-names`.
 
-## Using CSL 
+## Using CSL
 
-If `cite-method` is set to `citeproc` in `elsevier_article()`, then pandoc is used for citations instead of `natbib`. In this case, the `csl` option is used to format the references. By default, this template will provide an appropriate style, but alternative `csl` files are available from <https://www.zotero.org/styles?q=elsevier>. These can be downloaded
-and stored locally, or the url can be used as in the example header.
+If `cite-method` is set to `citeproc` in `elsevier_article()`, then
+pandoc is used for citations instead of `natbib`. In this case, the
+`csl` option is used to format the references. By default, this template
+will provide an appropriate style, but alternative `csl` files are
+available from <https://www.zotero.org/styles?q=elsevier>. These can be
+downloaded and stored locally, or the url can be used as in the example
+header.
 
-# Equations
+# Métodos
 
-Here is an equation:
-$$ 
+Here is an equation: $$ 
   f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
   \left(\frac{x}{\beta}\right)^{\alpha-1}
   e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
@@ -92,24 +102,39 @@ $$
 
 Inline equations work as well: $\sum_{i = 2}^\infty\{\alpha_i^\beta\}$
 
-# Figures and tables
+# Resultados
 
 @fig-meaningless is generated using an R chunk.
 
 ```{r}
-#| label: fig-meaningless
-#| fig-cap: A meaningless scatterplot
+#| label: fig-mds
+#| fig-cap: MDS no métrico de las composición y abunndancia de peces observadas en Dzilam y el Cuyo, en horario matutino y vespertino.
 #| fig-width: 5
 #| fig-height: 5
 #| fig-align: center
 #| out-width: 50%
 #| echo: false
-plot(runif(25), runif(25))
+
+library(vegan)
+library(ggplot2)
+datos <- read.csv("Peces_Dzilam.csv")
+datos_numeros <- datos[5:19]
+dist_datos <- vegdist(sqrt(datos_numeros), method = "bray")
+mds_result <- metaMDS(dist_datos, k = 2)
+# plot(mds_result)
+mds_points <-as.data.frame(mds_result$points)
+mds <- cbind(datos[,1:4], mds_points)
+ggplot(mds, aes(x = MDS1, y = MDS2))+
+  geom_point(aes(colour = Sitio, shape = Hora), size = 4)+
+  theme_bw()
+
+
 ```
 
 # Tables coming from R
 
-Tables can also be generated using R chunks, as shown in @tbl-simple example.
+Tables can also be generated using R chunks, as shown in @tbl-simple
+example.
 
 ```{r}
 #| label: tbl-simple
@@ -118,4 +143,4 @@ Tables can also be generated using R chunks, as shown in @tbl-simple example.
 knitr::kable(head(mtcars)[,1:4])
 ```
 
-# References {-}
+# References {.unnumbered}
