@@ -58,7 +58,9 @@ For detailed instructions regarding the elsevier article class, see
 
 # Introducción
 
-La
+Los sistemas costeros son unos de los más afectados por las actividades
+humanas, especialmente porque hay una tendencia que favorece la creación
+de nucleos urbanos en la zona costera
 
 # Bibliography styles
 
