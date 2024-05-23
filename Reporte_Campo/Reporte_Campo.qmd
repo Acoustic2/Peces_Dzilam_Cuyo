@@ -2,9 +2,8 @@
 title: Short Paper
 subtitle: A Short Subtitle
 author:
-  - name: Emilio García
-    email: 319227105@enesmerida.unam.mx
-
+  - name: Miguel Guemez
+    email: 422003010@enesmerida.unam.mx
     affiliations: 
         - id: UNAM
           name: Universidad Nacional Autónoma de México
