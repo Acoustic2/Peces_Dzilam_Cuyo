@@ -18,10 +18,6 @@ author:
   - name: Jose García
     email: 319227105@enesmerida.unam.mx
     affiliations:
-<<<<<<< HEAD
-      
-=======
->>>>>>> fa549660a1fef4e6eff74542b09a6bc2806cb4bb
         - id: UNAM
           name: Universidad Nacional Autónoma de México
           department: ENES Merida
@@ -35,7 +31,7 @@ lang: es
 cap-location: bottom
 
 abstract: |
-  El presente estudio es enfocado a conocer y comparar la diversidad de especies de peces en dos sitios dentro del Estado de Yucatán con diferentes condiciones ambientales, Dzilam de Bravo y El Cuyo. Se utilizó el protocolo AGRRA para muestreo de peces en ambos sitios y en dos tiempos: mañana y tarde. Los resultados mostraron una diferencia en las especies observadas tanto en  espacio como en tiempo [(sin embargo) fueron o no significativas]. Este estudio provee de una base para la investigación, programas de coservación y manejo de recursos. Se recomienda para futuros trabajos 
+  El presente estudio es enfocado a conocer y comparar la diversidad de especies de peces en dos sitios dentro del Estado de Yucatán con diferentes condiciones ambientales, Dzilam de Bravo y El Cuyo. Se utilizó el protocolo AGRRA para muestreo de peces en ambos sitios y en dos tiempos: mañana y tarde. Los resultados mostraron una diferencia en las especies observadas tanto en  espacio como en tiempo [(sin embargo) fueron o no significativas]. Este estudio provee de una base para la investigación, programas de coservación y manejo de recursos. Se recomienda para futuros trabajos muestreos en escalas más amplias de tiempo
 keywords: 
   - Peces
   - Biodiversidad
