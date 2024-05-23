@@ -68,9 +68,15 @@ conservarlos adecuadamente. Los peces en particular son un grupo de
 organismos muy conocido y abundante, tanto que representan casi la mitad
 de las especies de vertebrados a escala global @bingpeng2018 resaltando
 así su importancia tanto en sistemas naturales como para la provisión de
-servicios ecosistémicos @rönnbäck2007. Por estas razones, este estudio
-se centra en caracterizar la diversidad de peces en la zona costera,
-para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo.
+servicios ecosistémicos @rönnbäck2007. Por estas razones, es imperante
+conocer los factores que moldean la composición de especies, y en el
+caso de sistemas acuáticos, el sustrato juega un papel esencial, ya la
+mayoría de los organismos utilizan un componente de este en algún punto
+de su ciclo de vida @rönnbäck2007. Uno de los componentes más
+importantes del sustrato es la vegetación que lo acompaña,
+
+ste estudio se centra en caracterizar la diversidad de peces en la zona
+costera, para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo.
 
 # Bibliography styles
 

@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{barragán2015}
+J.~M. {Barragán}, M.~{De Andrés}, \href{https://linkinghub.elsevier.com/retrieve/pii/S0964569115001544}{Analysis and trends of the world's coastal cities and agglomerations}, Ocean & Coastal Management 114 (2015) 11--20.
+\newblock \href {https://doi.org/10.1016/j.ocecoaman.2015.06.004} {\path{doi:10.1016/j.ocecoaman.2015.06.004}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0964569115001544}
+
+\bibitem{bingpeng2018}
+X.~Bingpeng, L.~Heshan, Z.~Zhilan, W.~Chunguang, W.~Yanguo, W.~Jianjun, \href{https://dx.plos.org/10.1371/journal.pone.0198109}{Dna barcoding for identification of fish species in the taiwan strait}, PLOS ONE 13~(6) (2018) e0198109.
+\newblock \href {https://doi.org/10.1371/journal.pone.0198109} {\path{doi:10.1371/journal.pone.0198109}}.
+\newline\urlprefix\url{https://dx.plos.org/10.1371/journal.pone.0198109}
+
+\bibitem{rönnbäck2007}
+P.~{Rönnbäck}, N.~Kautsky, L.~Pihl, M.~Troell, T.~{Söderqvist}, H.~Wennhage, \href{http://www.bioone.org/doi/abs/10.1579/0044-7447%282007%2936%5B534%3AEGASFS%5D2.0.CO%3B2}{Ecosystem goods and services from swedish coastal habitats: Identification, valuation, and implications of ecosystem shifts}, AMBIO: A Journal of the Human Environment 36~(7) (2007) 534--544.
+\newblock \href {https://doi.org/10.1579/0044-7447(2007)36[534:EGASFS]2.0.CO;2} {\path{doi:10.1579/0044-7447(2007)36[534:EGASFS]2.0.CO;2}}.
+\newline\urlprefix\url{http://www.bioone.org/doi/abs/10.1579/0044-7447%282007%2936%5B534%3AEGASFS%5D2.0.CO%3B2}
+
+\bibitem{Feynman1963118}
+R.~P. Feynman, F.~L. {Vernon Jr.}, The theory of a general quantum system interacting with a linear dissipative system, Annals of Physics 24 (1963) 118--173.
+\newblock \href {https://doi.org/10.1016/0003-4916(63)90068-X} {\path{doi:10.1016/0003-4916(63)90068-X}}.
+
+\bibitem{Dirac1953888}
+P.~A.~M. Dirac, The {Lorentz} transformation and absolute time, Physica 19~(1-–12) (1953) 888--896.
+\newblock \href {https://doi.org/10.1016/S0031-8914(53)80099-6} {\path{doi:10.1016/S0031-8914(53)80099-6}}.
+
+\end{thebibliography}

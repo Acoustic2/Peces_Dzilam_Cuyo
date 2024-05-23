@@ -236,7 +236,7 @@ tempus elit.
     keyword2
 \end{keyword}
 \end{frontmatter}
-    \ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, boxrule=0pt, breakable, sharp corners, borderline west={3pt}{0pt}{shadecolor}, interior hidden, enhanced]}{\end{tcolorbox}}\fi
+    \ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, interior hidden, enhanced, breakable, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, frame hidden]}{\end{tcolorbox}}\fi
 
 Please make sure that your manuscript follows the guidelines in the
 Guide for Authors of the relevant journal. It is not necessary to
@@ -246,11 +246,29 @@ you are submitting to a camera-ready copy (CRC) journal.
 For detailed instructions regarding the elsevier article class, see
 \url{https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions}
 
+\hypertarget{introducciuxf3n}{%
+\section{Introducción}\label{introducciuxf3n}}
+
+Los sistemas costeros son unos de los más afectados por las actividades
+humanas, especialmente porque hay una tendencia que favorece el
+desarrollo de nucleos poblacionales cercanos a la costa debido a que
+facilita actividades como el turismo y la pesca \citet{barragán2015} en
+especifico para estas dos actividades es importante conocer la
+biodiversidad de los sistemas marinos para poder aprovecharlos y
+conservarlos adecuadamente. Los peces en particular son un grupo de
+organismos muy conocido y abundante, tanto que representan casi la mitad
+de las especies de vertebrados a escala global \citet{bingpeng2018}
+resaltando así su importancia tanto en sistemas naturales como para la
+provisión de servicios ecosistémicos \citet{rönnbäck2007}. Por estas
+razones, este estudio se centra en caracterizar la diversidad de peces
+en la zona costera, para lo cual comparamos dos sitios: Dzilam de Bravo
+y El Cuyo.
+
 \hypertarget{bibliography-styles}{%
 \section{Bibliography styles}\label{bibliography-styles}}
 
 Here are two sample references: \citet{Feynman1963118}
-\citet{Dirac1953888}.
+\citet{Dirac1953888}
 
 By default, natbib will be used with the \texttt{authoryear} style, set
 in \texttt{classoption} variable in YAML. You can sets extra options
