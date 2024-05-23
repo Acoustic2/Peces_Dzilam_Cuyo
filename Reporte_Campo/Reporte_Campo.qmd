@@ -1,10 +1,77 @@
 ---
+<<<<<<< HEAD
 
+=======
+title: Short Paper
+subtitle: A Short Subtitle
+author:
+  - name: Alice Anonymous
+    email: alice@example.com
+    affiliations: 
+<<<<<<< HEAD
+        - id: UNAM
+          name: Universidad Nacional Autónoma de México
+          department: ENES Merida
+          address: Mérida-Tetíz
+          city: Merida
+          state: Yucatán
+          postal-code: 97357
+=======
+        - id: some-tech
+          name: Some Institute of Technology
+          department: Department Name
+          address: Street Address
+          city: City
+          state: State
+          postal-code: Postal Code
+>>>>>>> 909871f15dc8918709484d22e0e894ed69b6d6b0
+    attributes:
+        corresponding: true
+    note: This is the first author footnote.
+  - name: Bob Security
+    email: bob@example.com
+    affiliations:
+<<<<<<< HEAD
+        - id: UNAM
+          name: Universidad Nacional Autónoma de México
+          department: ENES Merida
+          address: Mérida-Tetíz
+          city: Merida
+          state: Yucatán
+          postal-code: 97357
+    note: |
+      Another author footnote, this is a very long footnote and it should be a really long footnote. But this footnote is not yet sufficiently long enough to make two lines of footnote text.
+
+lang: es
+cap-location: bottom
+=======
+        - id: another-u
+          name: Another University
+          department: Department Name
+          address: Street Address
+          city: City
+          state: State
+          postal-code: Postal Code
+    note: |
+      Another author footnote, this is a very long footnote and it should be a really long footnote. But this footnote is not yet sufficiently long enough to make two lines of footnote text.
+  - name: Cat Memes
+    email: cat@example.com
+    affiliations:
+        - ref: another-u
+    note: Yet another author footnote.
+  - name: Derek Zoolander
+    email: derek@example.com
+    affilations:
+        - ref: some-tech
+>>>>>>> 909871f15dc8918709484d22e0e894ed69b6d6b0
+>>>>>>> 0baaa439cc4acc341ba792ccd6b87c6dc4b87dc9
 abstract: |
-  This is the abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue turpis, dictum non malesuada a, volutpat eget velit. Nam placerat turpis purus, eu tristique ex tincidunt et. Mauris sed augue eget turpis ultrices tincidunt. Sed et mi in leo porta egestas. Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit.
+  El presente estudio es enfocado a conocer y comparar la diversidad de especies de peces en dos sitios dentro del Estado de Yucatán con diferentes condiciones ambientales, Dzilam de Bravo y El Cuyo. Se utilizó el protocolo AGRRA para muestreo de peces en ambos sitios y en dos tiempos: mañana y tarde. Los resultados mostraron una diferencia en las especies observadas tanto en  espacio como en tiempo [(sin embargo) fueron o no significativas]. Este estudio provee de una base para la investigación, programas de coservación y manejo de recursos. Se recomienda para futuros trabajos 
 keywords: 
-  - keyword1
-  - keyword2
+  - Peces
+  - Biodiversidad
+  - AGRRA
+  - Caracterización
 date: last-modified
 bibliography: bibliography.bib
 format:
@@ -26,7 +93,35 @@ For detailed instructions regarding the elsevier article class, see <https://www
 
 # Introducción
 
+<<<<<<< HEAD
 Los sistemas costeros son unos de los más afectados por las actividades humanas, especialmente porque hay una tendencia que favorece el desarrollo de nucleos poblacionales cercanos a la costa debido a que facilita actividades como el turismo y la pesca @barragán2015 en especifico para estas dos actividades es importante conocer la biodiversidad de los sistemas marinos para poder aprovecharlos y conservarlos adecuadamente. Los peces en particular son un grupo de organismos muy conocido y abundante, tanto que representan casi la mitad de las especies de vertebrados a escala global @bingpeng2018 resaltando así su importancia tanto en sistemas naturales como para la provisión de servicios ecosistémicos @rönnbäck2007
+=======
+Los sistemas costeros son unos de los más afectados por las actividades
+humanas, especialmente porque hay una tendencia que favorece el
+desarrollo de nucleos poblacionales cercanos a la costa debido a que
+facilita actividades como el turismo y la pesca @barragán2015 en
+especifico para estas dos actividades es importante conocer la
+biodiversidad de los sistemas marinos para poder aprovecharlos y
+conservarlos adecuadamente. Los peces en particular son un grupo de
+organismos muy conocido y abundante, tanto que representan casi la mitad
+de las especies de vertebrados a escala global @bingpeng2018 resaltando
+así su importancia tanto en sistemas naturales como para la provisión de
+servicios ecosistémicos @rönnbäck2007 . Se sabe sin embargo que tanto
+los peces de agua dulce como los de agua salada son amenazados por
+dramáticos decrementos poblacionales y un riesgo de extinción en aumento
+[@arthington2016]. Por estas razones, es imperante conocer los factores
+que moldean la composición de especies; en el caso de sistemas
+acuáticos, el sustrato juega un papel esencial, ya la mayoría de los
+organismos utilizan un componente de este en algún punto de su ciclo de
+vida @rönnbäck2007. Uno de los componentes más importantes del sustrato
+es la vegetación que lo acompaña. Este estudio se centra en caracterizar
+la diversidad de peces en la zona costera, para lo cual comparamos dos
+sitios: Dzilam de Bravo y El Cuyo; siendo la vegetación una
+caracteristica altamente contrastante, ya que el cuyo al ser una zona
+relativamente más conservada, no está asociado a las grandes coberturas
+de pastos marinos como las que se ven en Dzilam de Bravo, un sitio más
+perturbado.
+>>>>>>> 0baaa439cc4acc341ba792ccd6b87c6dc4b87dc9
 
 # Métodos
 
