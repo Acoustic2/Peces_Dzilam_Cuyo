@@ -1,41 +1,5 @@
 ---
-title: Short Paper
-subtitle: A Short Subtitle
-author:
-  - name: Alice Anonymous
-    email: alice@example.com
-    affiliations: 
-        - id: some-tech
-          name: Some Institute of Technology
-          department: Department Name
-          address: Street Address
-          city: City
-          state: State
-          postal-code: Postal Code
-    attributes:
-        corresponding: true
-    note: This is the first author footnote.
-  - name: Bob Security
-    email: bob@example.com
-    affiliations:
-        - id: another-u
-          name: Another University
-          department: Department Name
-          address: Street Address
-          city: City
-          state: State
-          postal-code: Postal Code
-    note: |
-      Another author footnote, this is a very long footnote and it should be a really long footnote. But this footnote is not yet sufficiently long enough to make two lines of footnote text.
-  - name: Cat Memes
-    email: cat@example.com
-    affiliations:
-        - ref: another-u
-    note: Yet another author footnote.
-  - name: Derek Zoolander
-    email: derek@example.com
-    affilations:
-        - ref: some-tech
+
 abstract: |
   This is the abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue turpis, dictum non malesuada a, volutpat eget velit. Nam placerat turpis purus, eu tristique ex tincidunt et. Mauris sed augue eget turpis ultrices tincidunt. Sed et mi in leo porta egestas. Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit.
 keywords: 
@@ -56,35 +20,25 @@ editor:
     wrap: 72
 ---
 
-Please make sure that your manuscript follows the guidelines in the
-Guide for Authors of the relevant journal. It is not necessary to
-typeset your manuscript in exactly the same way as an article, unless
-you are submitting to a camera-ready copy (CRC) journal.
+Please make sure that your manuscript follows the guidelines in the Guide for Authors of the relevant journal. It is not necessary to typeset your manuscript in exactly the same way as an article, unless you are submitting to a camera-ready copy (CRC) journal.
 
-For detailed instructions regarding the elsevier article class, see
-<https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions>
+For detailed instructions regarding the elsevier article class, see <https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions>
 
 # Introducción
 
-Los sistemas costeros son unos de los más afectados por las actividades
-humanas, especialmente porque hay una tendencia que favorece el
-desarrollo de nucleos poblacionales cercanos a la costa debido a que
-facilita actividades como el turismo y la pesca @barragán2015 en
-especifico para estas dos actividades es importante conocer la
-biodiversidad de los sistemas marinos para poder aprovecharlos y
-conservarlos adecuadamente. Los peces en particular son un grupo de
-organismos muy conocido y abundante, tanto que representan casi la mitad
-de las especies de vertebrados a escala global @bingpeng2018 resaltando
-así su importancia tanto en sistemas naturales como para la provisión de
-servicios ecosistémicos @rönnbäck2007. Por estas razones, este estudio
-se centra en caracterizar la diversidad de peces en la zona costera,
-para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo.
+Los sistemas costeros son unos de los más afectados por las actividades humanas, especialmente porque hay una tendencia que favorece el desarrollo de nucleos poblacionales cercanos a la costa debido a que facilita actividades como el turismo y la pesca @barragán2015 en especifico para estas dos actividades es importante conocer la biodiversidad de los sistemas marinos para poder aprovecharlos y conservarlos adecuadamente. Los peces en particular son un grupo de organismos muy conocido y abundante, tanto que representan casi la mitad de las especies de vertebrados a escala global @bingpeng2018 resaltando así su importancia tanto en sistemas naturales como para la provisión de servicios ecosistémicos @rönnbäck2007
 
 # Métodos
 
-El área de estudio de este trabajo fueron dos playas ubicadas en la
-costa noreste de Yucatán, México, siendo estas Dzilam de Bravo y El
-Cuyo.
+Los muestreos se realizaron en mayo de 2024 en dos municipios ubicados en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). El mes en el que se hizo el muestreo coincide con la temporada de secas de la región ().
+
+*Muestreo*
+
+Se realizó el muestreo siguiendo la metodología propuesta en el protocolo AGRRA para peces (AGRRA, 2016). Debido a que esta metodología esta dirigida a ecosistema coralinos se les hizo modificaciones como el largo de los transectos (20 metros) y la profundidad de nado. Los muestreos se realizaron en dos horas del día: mañana (5:00 hrs a 11:30 hrs) y en la tarde (16:00 hrs a 18:30 hrs).
+
+La presencia de pescadores en El Cuyo nos permitio, además de hacer el senso visual, realizar entrevistas sobre los peces que normalmente se puden capturar en la zona del muelle turistico ().
+
+*Análisis estadísticos*
 
 # Resultados
 
@@ -93,7 +47,7 @@ Cuyo.
 ```{r}
 #| label: fig-mds
 #| fig-cap: MDS no métrico de las composición y abunndancia de peces observadas en Dzilam y el Cuyo, en horario matutino y vespertino.
-#| fig-width: 5
+#| fig-width: 7
 #| fig-height: 5
 #| fig-align: center
 #| out-width: 50%
@@ -117,8 +71,7 @@ ggplot(mds, aes(x = MDS1, y = MDS2))+
 
 # Tables coming from R
 
-Tables can also be generated using R chunks, as shown in @tbl-simple
-example.
+Tables can also be generated using R chunks, as shown in @tbl-simple example.
 
 ```{r}
 #| label: tbl-simple
