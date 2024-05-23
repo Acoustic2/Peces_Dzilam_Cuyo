@@ -52,10 +52,11 @@ editor:
     wrap: 72
 ---
 
-Please make sure that your manuscript follows the guidelines in the
-Guide for Authors of the relevant journal. It is not necessary to
-typeset your manuscript in exactly the same way as an article, unless
-you are submitting to a camera-ready copy (CRC) journal.
+Esta investigación va dedicada al Dr. Edlin Guerra y la Dra. Maria
+Muciño por guiarnos en la realización de la misma. Tambien a don Chuy
+por invitarnos unas aguas de coco, una disculpa a este último porque no
+nos la acabamos y tuvimos que tirar dos porque ya olían gacho, para
+proximos estudios sugerimos dar nuestra tanda.
 
 For detailed instructions regarding the elsevier article class, see
 <https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions>
