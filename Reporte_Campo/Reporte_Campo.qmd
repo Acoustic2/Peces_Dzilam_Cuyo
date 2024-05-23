@@ -80,9 +80,25 @@ servicios ecosistémicos @rönnbäck2007
 
 # Métodos
 
-El área de estudio de este trabajo fueron dos playas ubicadas en la
-costa noreste de Yucatán, México, siendo estas Dzilam de Bravo y El
-Cuyo.
+Los muestreos se realizaron en mayo de 2024 en dos municipios ubicados
+en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). El
+mes en el que se hizo el muestreo coincide con la temporada de secas de
+la región (). Una diferencia bastante notoria entre ambos sitios fue la
+presencia de pastos marinos en Dzilam de Bravo, mientras que el sustrato
+en la costa de El Cuyo es únicamente arena.
+
+*Muestreo*
+
+ Se realizó el muestreo siguiendo la metodología propuesta en el
+protocolo AGRRA para peces (AGRRA, 2016). Debido a que esta metodología
+esta dirigida a ecosistema de coral se les hizo modificaciones como el
+largo de los transectos (20 metros) y la profundidad de nado. Los
+muestreos se realizaron en dos horas del día: mañana (5:00 hrs a 11:30
+hrs) y en la tarde (16:00 hrs a 18:30 hrs).
+
+En la zona de El Cuyo había pescadores, por lo que además del censo
+visual, se les hizo una entrevista a dichos pescadores sobre los peces
+que podían encontrarse en la zona.
 
 # Resultados
 
@@ -91,7 +107,7 @@ Cuyo.
 ```{r}
 #| label: fig-mds
 #| fig-cap: MDS no métrico de las composición y abunndancia de peces observadas en Dzilam y el Cuyo, en horario matutino y vespertino.
-#| fig-width: 5
+#| fig-width: 7
 #| fig-height: 5
 #| fig-align: center
 #| out-width: 50%

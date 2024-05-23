@@ -247,46 +247,43 @@ you are submitting to a camera-ready copy (CRC) journal.
 For detailed instructions regarding the elsevier article class, see
 \url{https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions}
 
-\section{Bibliography styles}\label{bibliography-styles}
+\section{Introducción}\label{introducciuxf3n}
 
-Here are two sample references: \citet{Feynman1963118}
-\citet{Dirac1953888}.
+Los sistemas costeros son unos de los más afectados por las actividades
+humanas, especialmente porque hay una tendencia que favorece el
+desarrollo de nucleos poblacionales cercanos a la costa debido a que
+facilita actividades como el turismo y la pesca \citet{barragán2015} en
+especifico para estas dos actividades es importante conocer la
+biodiversidad de los sistemas marinos para poder aprovecharlos y
+conservarlos adecuadamente. Los peces en particular son un grupo de
+organismos muy conocido y abundante, tanto que representan casi la mitad
+de las especies de vertebrados a escala global \citet{bingpeng2018}
+resaltando así su importancia tanto en sistemas naturales como para la
+provisión de servicios ecosistémicos \citet{rönnbäck2007}
 
-By default, natbib will be used with the \texttt{authoryear} style, set
-in \texttt{classoption} variable in YAML. You can sets extra options
-with \texttt{natbiboptions} variable in YAML header. Example
+\section{Métodos}\label{muxe9todos}
 
-\begin{verbatim}
-natbiboptions: longnamesfirst,angle,semicolon
-\end{verbatim}
+Los muestreos se realizaron en mayo de 2024 en dos municipios ubicados
+en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). El
+mes en el que se hizo el muestreo coincide con la temporada de secas de
+la región (). Una diferencia bastante notoria entre ambos sitios fue la
+presencia de pastos marinos en Dzilam de Bravo, mientras que el sustrato
+en la costa de El Cuyo es únicamente arena.
 
-There are various more specific bibliography styles available at
-\url{https://support.stmdocs.in/wiki/index.php?title=Model-wise_bibliographic_style_files}.
-To use one of these, add it in the header using, for example,
-\texttt{biblio-style:\ model1-num-names}.
+\emph{Muestreo}
 
-\subsection{Using CSL}\label{using-csl}
+~Se realizó el muestreo siguiendo la metodología propuesta en el
+protocolo AGRRA para peces (AGRRA, 2016). Debido a que esta metodología
+esta dirigida a ecosistema de coral se les hizo modificaciones como el
+largo de los transectos (20 metros) y la profundidad de nado. Los
+muestreos se realizaron en dos horas del día: mañana (5:00 hrs a 11:30
+hrs) y en la tarde (16:00 hrs a 18:30 hrs).
 
-If \texttt{cite-method} is set to \texttt{citeproc} in
-\texttt{elsevier\_article()}, then pandoc is used for citations instead
-of \texttt{natbib}. In this case, the \texttt{csl} option is used to
-format the references. By default, this template will provide an
-appropriate style, but alternative \texttt{csl} files are available from
-\url{https://www.zotero.org/styles?q=elsevier}. These can be downloaded
-and stored locally, or the url can be used as in the example header.
+En la zona de El Cuyo había pescadores, por lo que además del censo
+visual, se les hizo una entrevista a dichos pescadores sobre los peces
+que podían encontrarse en la zona.
 
-\section{Equations}\label{equations}
-
-Here is an equation: \[ 
-  f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
-  \left(\frac{x}{\beta}\right)^{\alpha-1}
-  e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
-  \alpha,\beta,x > 0 .
-\]
-
-Inline equations work as well: \(\sum_{i = 2}^\infty\{\alpha_i^\beta\}\)
-
-\section{Figures and tables}\label{figures-and-tables}
+\section{Resultados}\label{resultados}
 
 \textbf{?@fig-meaningless} is generated using an R chunk.
 
@@ -320,30 +317,29 @@ Warning: package 'ggplot2' was built under R version 4.2.3
 
 \begin{verbatim}
 Run 0 stress 0.1175441 
-Run 1 stress 0.3305938 
-Run 2 stress 0.1430688 
-Run 3 stress 0.1189474 
-Run 4 stress 0.1290742 
-Run 5 stress 0.1213357 
-Run 6 stress 0.1197655 
-Run 7 stress 0.1372569 
-Run 8 stress 0.1320339 
-Run 9 stress 0.1423301 
-Run 10 stress 0.119226 
-Run 11 stress 0.1284746 
-Run 12 stress 0.1228423 
-Run 13 stress 0.1212126 
-Run 14 stress 0.1257043 
-Run 15 stress 0.119226 
-Run 16 stress 0.1237893 
-Run 17 stress 0.1268507 
-Run 18 stress 0.1336798 
-Run 19 stress 0.1335439 
-Run 20 stress 0.1268736 
+Run 1 stress 0.1193205 
+Run 2 stress 0.1372133 
+Run 3 stress 0.1378857 
+Run 4 stress 0.1342413 
+Run 5 stress 0.1193818 
+Run 6 stress 0.1286078 
+Run 7 stress 0.1274143 
+Run 8 stress 0.1269474 
+Run 9 stress 0.1287159 
+Run 10 stress 0.1254489 
+Run 11 stress 0.1234647 
+Run 12 stress 0.127248 
+Run 13 stress 0.1287274 
+Run 14 stress 0.1218847 
+Run 15 stress 0.122906 
+Run 16 stress 0.1370829 
+Run 17 stress 0.1351354 
+Run 18 stress 0.1234989 
+Run 19 stress 0.1255487 
+Run 20 stress 0.3404572 
 *** Best solution was not repeated -- monoMDS stopping criteria:
-     1: no. of iterations >= maxit
-    14: stress ratio > sratmax
-     5: scale factor of the gradient < sfgrmin
+    17: stress ratio > sratmax
+     3: scale factor of the gradient < sfgrmin
 \end{verbatim}
 
 \begin{figure}
