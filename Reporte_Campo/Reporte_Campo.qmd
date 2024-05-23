@@ -2,9 +2,10 @@
 title: Short Paper
 subtitle: A Short Subtitle
 author:
-  - name: Emilio García
-    email: 319227105@enesmerida.unam.mx
+  - name: Alice Anonymous
+    email: alice@example.com
     affiliations: 
+<<<<<<< HEAD
         - id: UNAM
           name: Universidad Nacional Autónoma de México
           department: ENES Merida
@@ -12,12 +13,22 @@ author:
           city: Merida
           state: Yucatán
           postal-code: 97357
+=======
+        - id: some-tech
+          name: Some Institute of Technology
+          department: Department Name
+          address: Street Address
+          city: City
+          state: State
+          postal-code: Postal Code
+>>>>>>> 909871f15dc8918709484d22e0e894ed69b6d6b0
     attributes:
         corresponding: true
     note: This is the first author footnote.
-  - name: Miguel Güemez
-    email: 422003010@enesmerida.unam.mx
+  - name: Bob Security
+    email: bob@example.com
     affiliations:
+<<<<<<< HEAD
         - id: UNAM
           name: Universidad Nacional Autónoma de México
           department: ENES Merida
@@ -30,6 +41,26 @@ author:
 
 lang: es
 cap-location: bottom
+=======
+        - id: another-u
+          name: Another University
+          department: Department Name
+          address: Street Address
+          city: City
+          state: State
+          postal-code: Postal Code
+    note: |
+      Another author footnote, this is a very long footnote and it should be a really long footnote. But this footnote is not yet sufficiently long enough to make two lines of footnote text.
+  - name: Cat Memes
+    email: cat@example.com
+    affiliations:
+        - ref: another-u
+    note: Yet another author footnote.
+  - name: Derek Zoolander
+    email: derek@example.com
+    affilations:
+        - ref: some-tech
+>>>>>>> 909871f15dc8918709484d22e0e894ed69b6d6b0
 abstract: |
   El presente estudio es enfocado a conocer y comparar la diversidad de especies de peces en dos sitios dentro del Estado de Yucatán con diferentes condiciones ambientales, Dzilam de Bravo y El Cuyo. Se utilizó el protocolo AGRRA para muestreo de peces en ambos sitios y en dos tiempos: mañana y tarde. Los resultados mostraron una diferencia en las especies observadas tanto en  espacio como en tiempo [(sin embargo) fueron o no significativas]. Este estudio provee de una base para la investigación, programas de coservación y manejo de recursos. Se recomienda para futuros trabajos 
 keywords: 
@@ -88,57 +119,39 @@ relativamente más conservada, no está asociado a las grandes coberturas
 de pastos marinos como las que se ven en Dzilam de Bravo, un sitio más
 perturbado.
 
-# Bibliography styles
+# Métodos
 
-Here are two sample references: @Feynman1963118 @Dirac1953888
+El área de estudio de este trabajo fueron dos playas ubicadas en la
+costa noreste de Yucatán, México, siendo estas Dzilam de Bravo y El
+Cuyo.
 
-By default, natbib will be used with the `authoryear` style, set in
-`classoption` variable in YAML. You can sets extra options with
-`natbiboptions` variable in YAML header. Example
-
-```         
-natbiboptions: longnamesfirst,angle,semicolon
-```
-
-There are various more specific bibliography styles available at
-<https://support.stmdocs.in/wiki/index.php?title=Model-wise_bibliographic_style_files>.
-To use one of these, add it in the header using, for example,
-`biblio-style: model1-num-names`.
-
-## Using CSL
-
-If `cite-method` is set to `citeproc` in `elsevier_article()`, then
-pandoc is used for citations instead of `natbib`. In this case, the
-`csl` option is used to format the references. By default, this template
-will provide an appropriate style, but alternative `csl` files are
-available from <https://www.zotero.org/styles?q=elsevier>. These can be
-downloaded and stored locally, or the url can be used as in the example
-header.
-
-# Equations
-
-Here is an equation: $$ 
-  f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
-  \left(\frac{x}{\beta}\right)^{\alpha-1}
-  e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
-  \alpha,\beta,x > 0 .
-$$
-
-Inline equations work as well: $\sum_{i = 2}^\infty\{\alpha_i^\beta\}$
-
-# Figures and tables
+# Resultados
 
 @fig-meaningless is generated using an R chunk.
 
 ```{r}
-#| label: fig-meaningless
-#| fig-cap: A meaningless scatterplot
+#| label: fig-mds
+#| fig-cap: MDS no métrico de las composición y abunndancia de peces observadas en Dzilam y el Cuyo, en horario matutino y vespertino.
 #| fig-width: 5
 #| fig-height: 5
 #| fig-align: center
 #| out-width: 50%
 #| echo: false
-plot(runif(25), runif(25))
+
+library(vegan)
+library(ggplot2)
+datos <- read.csv("Peces_Dzilam.csv")
+datos_numeros <- datos[5:19]
+dist_datos <- vegdist(sqrt(datos_numeros), method = "bray")
+mds_result <- metaMDS(dist_datos, k = 2)
+# plot(mds_result)
+mds_points <-as.data.frame(mds_result$points)
+mds <- cbind(datos[,1:4], mds_points)
+ggplot(mds, aes(x = MDS1, y = MDS2))+
+  geom_point(aes(colour = Sitio, shape = Hora), size = 4)+
+  theme_bw()
+
+
 ```
 
 # Tables coming from R
