@@ -2,8 +2,8 @@
 title: Short Paper
 subtitle: A Short Subtitle
 author:
-  - name: Alice Anonymous
-    email: alice@example.com
+  - name: Miguel Güemez
+    email: 422003010@enesmerida.unam.mx
     affiliations: 
         - id: UNAM
           name: Universidad Nacional Autónoma de México
@@ -13,12 +13,15 @@ author:
           state: Yucatán
           postal-code: 97357
     attributes:
-        corresponding: true
-    note: This is the first author footnote.
-  - name: Bob Security
-    email: bob@example.com
+        corresponding: false
+  
+  - name: Jose García
+    email: 319227105@enesmerida.unam.mx
     affiliations:
+<<<<<<< HEAD
       
+=======
+>>>>>>> fa549660a1fef4e6eff74542b09a6bc2806cb4bb
         - id: UNAM
           name: Universidad Nacional Autónoma de México
           department: ENES Merida
@@ -26,9 +29,8 @@ author:
           city: Merida
           state: Yucatán
           postal-code: 97357
-    note: |
-      Another author footnote, this is a very long footnote and it should be a really long footnote. But this footnote is not yet sufficiently long enough to make two lines of footnote text.
-
+attributes:
+    corresponding: true
 lang: es
 cap-location: bottom
 
