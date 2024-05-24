@@ -24,29 +24,36 @@ author:
         postal-code: 97357
     attributes:
       corresponding: true
-lang: es
-cap-location: bottom
-bibliography: references.bib
-abstract: El presente estudio es enfocado a conocer y comparar la diversidad de especies de peces en dos sitios dentro del Estado de Yucatán con diferentes condiciones ambientales, Dzilam de Bravo y El Cuyo. Se utilizó el protocolo AGRRA para muestreo de peces en ambos sitios y en dos tiempos: mañana y tarde. Los resultados mostraron una diferencia en las especies observadas tanto en espacio como en tiempo \[(sin embargo) fueron o no significativas\]. Este estudio provee de una base para la investigación, programas de coservación y manejo de recursos. Se recomienda para futuros trabajos muestreos en escalas más amplias de tiempo, así como la medición de las variables ambientales.
+
+abstract: |
+  El presente estudio es enfocado a conocer y comparar la diversidad de especies de peces en dos sitios dentro del Estado de Yucatán con diferentes condiciones ambientales, Dzilam de Bravo y El Cuyo. Se utilizó el protocolo AGRRA para muestreo de peces en ambos sitios y en dos tiempos (mañana y tarde). Los resultados mostraron una diferencia en las especies observadas tanto en espacio como en tiempo, sin embargo, fueron o no significativas. Este estudio provee de una base para la investigación, programas de coservación y manejo de recursos. Se recomienda para futuros trabajos muestreos en escalas más amplias de tiempo, así como la medición de las variables ambientales.
 
 keywords:
   - Peces
   - Biodiversidad
   - AGRRA
-  - Caracterización 
+  - Caracterizacion 
 date: last-modified
 bibliography: bibliography.bib 
+crossref: 
+  fig-title: Figura
+  title-delim: .
+  fig-prefix: Fig.
+  labels: arabic
+  subref-labels: alpha a
+  tbl-title: Tabla
+  tbl-prefix: Tabla
 format: 
   elsevier-pdf:
-   keep-tex: true 
-   journal: 
-   name: Journal Name 
-   formatting: preprint 
-   model: 3p 
-   cite-style: authoryear 
-   editor: 
-   markdown: 
-   wrap: 72 
+    keep-tex: true 
+    journal: 
+      name: Journal Name 
+      formatting: preprint 
+      model: 3p 
+      cite-style: authoryear 
+editor: 
+  markdown: 
+    wrap: 72 
 ---
 
 # Introducción
@@ -65,7 +72,7 @@ La presencia de pescadores en El Cuyo nos permitio, además de hacer el senso vi
 
 # Resultados
 
-@fig-meaningless is generated using an R chunk.
+@fig-mds is generated using an R chunk.
 
 ```{r}
 #| label: fig-mds
@@ -75,6 +82,9 @@ La presencia de pescadores en El Cuyo nos permitio, además de hacer el senso vi
 #| fig-align: center
 #| out-width: 50%
 #| echo: false
+#| message: false
+#| warning: false
+#| results: hide
 
 library(vegan)
 library(ggplot2)
