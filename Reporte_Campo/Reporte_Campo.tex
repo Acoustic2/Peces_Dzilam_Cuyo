@@ -152,9 +152,12 @@
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
 \floatname{codelisting}{Listing}
 \newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+<<<<<<< HEAD
 \captionsetup{labelsep=period}
 \makeatother
 \makeatletter
+=======
+>>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 \makeatother
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
@@ -166,8 +169,12 @@
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{elsarticle-harv}
+<<<<<<< HEAD
 \usepackage{bookmark}
 
+=======
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+>>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
@@ -225,8 +232,15 @@ tiempo, así como la medición de las variables ambientales.
     Caracterizacion
 \end{keyword}
 \end{frontmatter}
+<<<<<<< HEAD
     
 \section{Introducción}\label{introducciuxf3n}
+=======
+    \ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, frame hidden, interior hidden, sharp corners, enhanced, breakable, boxrule=0pt]}{\end{tcolorbox}}\fi
+
+\hypertarget{introducciuxf3n}{%
+\section{Introducción}\label{introducciuxf3n}}
+>>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 
 Los sistemas costeros son unos de los más afectados por las actividades
 humanas, especialmente porque hay una tendencia que favorece el
@@ -257,7 +271,12 @@ contaminada en el mar \citep{kantunmanzano2018}, se espera que por las
 características ambientales diferentes, la composición de especies en
 ambos sitios sea distinta.
 
+<<<<<<< HEAD
 \section{Métodos}\label{muxe9todos}
+=======
+\hypertarget{muxe9todos}{%
+\section{Métodos}\label{muxe9todos}}
+>>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 
 Los muestreos se realizaron en mayo de 2024 en dos municipios ubicados
 en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). El
@@ -271,14 +290,19 @@ protocolo AGRRA para peces (AGRRA, 2016). Debido a que esta metodología
 esta dirigida a ecosistema coralinos se les hizo modificaciones como el
 largo de los transectos (20 metros) y la profundidad de nado. Los
 muestreos se realizaron en dos horas del día: mañana (5:00 hrs a 11:30
+<<<<<<< HEAD
 hrs) y en la tarde (16:00 hrs a 18:30 hrs). La identificación de los
 peces se hizo mediante el libro ``Reef fish identification'' () y el
 ``Catálogo de peces de la costa norte de Yucatán'' ().
+=======
+hrs) y en la tarde (16:00 hrs a 18:30 hrs).
+>>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 
 La presencia de pescadores en El Cuyo nos permitio, además de hacer el
 senso visual, realizar entrevistas sobre los peces que normalmente se
 puden capturar en la zona del muelle turistico ().
 
+<<<<<<< HEAD
 Se utilizó el software R, en donde se realizó un MDS utilizando el
 paquete vegen\citep{vegan} en R. Además, usando el estimador no
 paramétrico Chao2 \citep{chao2014a} se hizo una curva de acumulación de
@@ -288,13 +312,22 @@ similitud de Jaccard para estimar Beta diversidad y su partición
 
 \section{Resultados}\label{resultados}
 
+=======
+\hypertarget{resultados}{%
+\section{Resultados}\label{resultados}}
+
+>>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 Fig.~\ref{fig-mds} is generated using an R chunk.
 
 \begin{figure}
 
+<<<<<<< HEAD
 \centering{
 
 \includegraphics[width=0.5\textwidth,height=\textheight]{Reporte_Campo_files/figure-pdf/fig-mds-1.pdf}
+=======
+{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{Reporte_Campo_files/figure-pdf/fig-mds-1.pdf}
+>>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 
 }
 
@@ -316,11 +349,19 @@ Tabla~\ref{tbl-simple} example.
 \end{Shaded}
 
 \begin{longtable}[]{@{}lrrrr@{}}
+<<<<<<< HEAD
 
 \caption{\label{tbl-simple}Caption centered above table}
 
 \tabularnewline
 
+=======
+\caption{\label{tbl-simple}Caption centered above table}\tabularnewline
+\toprule\noalign{}
+& mpg & cyl & disp & hp \\
+\midrule\noalign{}
+\endfirsthead
+>>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 \toprule\noalign{}
 & mpg & cyl & disp & hp \\
 \midrule\noalign{}
@@ -333,10 +374,17 @@ Datsun 710 & 22.8 & 4 & 108 & 93 \\
 Hornet 4 Drive & 21.4 & 6 & 258 & 110 \\
 Hornet Sportabout & 18.7 & 8 & 360 & 175 \\
 Valiant & 18.1 & 6 & 225 & 105 \\
+<<<<<<< HEAD
 
 \end{longtable}
 
 \section*{Discusión}\label{discusiuxf3n}
+=======
+\end{longtable}
+
+\hypertarget{discusiuxf3n}{%
+\section*{Discusión}\label{discusiuxf3n}}
+>>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 \addcontentsline{toc}{section}{Discusión}
 
 lang:es
@@ -349,14 +397,24 @@ condiciones ambientales, tanto de la columna de agua como de el
 sustrato, se puede ver además en la fig.~1 que también se ve un patrón
 entre las especies observadas en la mañana y la tarde en ambos sitios.
 
+<<<<<<< HEAD
 \section*{Conclusión}\label{conclusiuxf3n}
+=======
+\hypertarget{conclusiuxf3n}{%
+\section*{Conclusión}\label{conclusiuxf3n}}
+>>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 \addcontentsline{toc}{section}{Conclusión}
 
 El protocolo AGRRA para peces brinda una opción de muestreo
 estandarizado y accesible no solo para fines de docencia si no para la
 investigación formal, los resultados
 
+<<<<<<< HEAD
 \subsection{Reconocimiento}\label{reconocimiento}
+=======
+\hypertarget{reconocimiento}{%
+\subsection{Reconocimiento}\label{reconocimiento}}
+>>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 
 Esta investigación va dedicada al Dr.~Edlin Guerra y la Dra. Maria
 Muciño por guiarnos en la realización de la misma. Tambien a don Chuy
