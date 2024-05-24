@@ -135,7 +135,10 @@ donde la mayor parte de la diferencia entre los sitios se debe *Jaccard
 Turnover,* que es la sustitución de especies (0.8) que a *Jaccard NE,*
 que se explica por la anidación (0.12).
 
-El MDS
+El MDS obtenido tuvo un estres de 0.11, además que se pueden observar
+diferencias entre lo observado en El Cuyo y Dzilam de Bravo, tanto en
+posición como en abundancia de individuos. Tambien es posible observar
+diferencias entre lo observado en la mañana y en la tarde.
 
 La curva de acumulación de especies
 
@@ -187,39 +190,23 @@ example.
 knitr::kable(head(mtcars)[,1:4])
 ```
 
-# Discusión y Conclusión {.unnumbered}
+# Discusión {.unnumbered}
 
 lang:es
 
 Los resultados muestran una composición de especies distintas en ambos
-sitios, esto se ve respaldado gráficamente en la fig. 1, proponemos que
+sitios, esto se ve respaldado gráficamente en la fig. 1, y numéricamente
+con el valor obtenido de PERMANOVA \[poner el valor\], proponemos que
 una de las causas principales de este cambio se puede deber a las
 condiciones ambientales, tanto de la columna de agua como de el
 sustrato, se puede ver además en la fig. 1 que también se ve un patrón
 entre las especies observadas en la mañana y la tarde en ambos sitios.
-La curva de asimilación (fig. no se) mostró resultados dentro de lo
-esperado, puesto que se puede observar la asíntota para el sitio de
-Dzilam de bravo, mientras que la tendencia lineal en la de El Cuyo
-indica que se requiere de un mayor esfuerzo de muestreo para representar
-la diversidad de especies para todo el sitio [@colwell2004]. Se
-realizaron encuestas a tres pescadores en el puerto turístico de El Cuyo
-preguntando acerca de que especies se pueden pescar en el sitio, los
-resultados fueron: \[ \]; esto da un indicio acerca de que especies se
-pudieron haber observado con un mayor esfuerzo de muestreo y/o con
-condiciones ambientales más favorables.
+
+# Conclusión {.unnumbered}
 
 El protocolo AGRRA para peces brinda una opción de muestreo
 estandarizado y accesible no solo para fines de docencia si no para la
-investigación formal. Se recomienda para próximos trabajos aumentar el
-esfuerzo de muestreo para El Cuyo, así como considerar posibles
-inconvenientes inesperados como la turbidez anormal del agua, se
-reconoce asimismo que la estacionalidad podría estar jugando un papel
-importante en la presencia y ausencia de especies de los sitios, por
-ejemplo, las descargas de agua dulce rica en nutrientes durante la
-primavera y verano [@valle-levinson2011] hacia la costa este de la
-península tiene una tendencia de dispersarse hacia el golfo de México
-[@enriquez2010] cuya influencia podría llegar hasta Dzilam de Bravo y El
-Cuyo.
+investigación formal, los resultados
 
 ## Reconocimiento
 
@@ -229,9 +216,5 @@ por invitarnos unas aguas de coco, una disculpa a este último porque no
 nos la acabamos y tuvimos que tirar dos porque ya olían gacho, para
 proximos estudios sugerimos dar nuestra tanda. Abrazo, abrazo, beso,
 beso, abrazo, abrazo, besote, abracito, beso, besito.
-
-# Conflictos de Interés {.unnumbered}
-
-Los autores declaran que no hay conflictos de interés
 
 # References {.unnumbered}
