@@ -2,97 +2,77 @@
 title: Short Paper
 subtitle: A Short Subtitle
 author:
-  - name: Emilio García
-    email: 319227105@enesmerida.unam.mx
-    affiliations: 
-        - id: UNAM
-          name: Universidad Nacional Autónoma de México
-          department: ENES Merida
-          address: Mérida-Tetiz
-          city: Merida
-          state: Yucatán
-          postal-code: 97357
-    attributes:
-        corresponding: true
-    note: This is the first author footnote.
-  - name: Miguel Güemez
+  - name: Miguel Guemez
     email: 422003010@enesmerida.unam.mx
+    affiliations: 
+      - id: UNAM
+        name: Universidad Nacional Autónoma de México
+        department: ENES Merida
+        address: Mérida-Tetíz
+        city: Merida
+        state: Yucatán
+        postal-code: 97357
+  - name: Jose García
+    email: 319227105@enesmerida.unam.mx
     affiliations:
-        - id: UNAM
-          name: Universidad Nacional Autónoma de México
-          department: ENES Merida
-          address: Mérida-Tetiz
-          city: Merida
-          state: Yucatán
-          postal-code: 97357
-    note: |
-      Another author footnote, this is a very long footnote and it should be a really long footnote. But this footnote is not yet sufficiently long enough to make two lines of footnote text.
+      - id: UNAM
+        name: Universidad Nacional Autónoma de México
+        department: ENES Merida
+        address: Mérida-Tetíz
+        city: Merida
+        state: Yucatán
+        postal-code: 97357
+    attributes:
+      corresponding: true
 
 abstract: |
-  This is the abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue turpis, dictum non malesuada a, volutpat eget velit. Nam placerat turpis purus, eu tristique ex tincidunt et. Mauris sed augue eget turpis ultrices tincidunt. Sed et mi in leo porta egestas. Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit.
-keywords: 
-  - keyword1
-  - keyword2
+  El presente estudio es enfocado a conocer y comparar la diversidad de especies de peces en dos sitios dentro del Estado de Yucatán con diferentes condiciones ambientales, Dzilam de Bravo y El Cuyo. Se utilizó el protocolo AGRRA para muestreo de peces en ambos sitios y en dos tiempos (mañana y tarde). Los resultados mostraron una diferencia en las especies observadas tanto en espacio como en tiempo, sin embargo, fueron o no significativas. Este estudio provee de una base para la investigación, programas de coservación y manejo de recursos. Se recomienda para futuros trabajos muestreos en escalas más amplias de tiempo, así como la medición de las variables ambientales.
+
+keywords:
+  - Peces
+  - Biodiversidad
+  - AGRRA
+  - Caracterizacion 
 date: last-modified
-bibliography: bibliography.bib
-format:
+bibliography: bibliography.bib 
+crossref: 
+  fig-title: Figura
+  title-delim: .
+  fig-prefix: Fig.
+  labels: arabic
+  subref-labels: alpha a
+  tbl-title: Tabla
+  tbl-prefix: Tabla
+format: 
   elsevier-pdf:
-    keep-tex: true
-    journal:
-      name: Journal Name
-      formatting: preprint
-      model: 3p
-      cite-style: super
+    keep-tex: true 
+    journal: 
+      name: Journal Name 
+      formatting: preprint 
+      model: 3p 
+      cite-style: authoryear 
 editor: 
   markdown: 
-    wrap: 72
+    wrap: 72 
 ---
-
-Please make sure that your manuscript follows the guidelines in the
-Guide for Authors of the relevant journal. It is not necessary to
-typeset your manuscript in exactly the same way as an article, unless
-you are submitting to a camera-ready copy (CRC) journal.
-
-For detailed instructions regarding the elsevier article class, see
-<https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions>
 
 # Introducción
 
-Los sistemas costeros son unos de los más afectados por las actividades
-humanas, especialmente porque hay una tendencia que favorece el
-desarrollo de nucleos poblacionales cercanos a la costa debido a que
-facilita actividades como el turismo y la pesca @barragán2015 en
-especifico para estas dos actividades es importante conocer la
-biodiversidad de los sistemas marinos para poder aprovecharlos y
-conservarlos adecuadamente. Los peces en particular son un grupo de
-organismos muy conocido y abundante, tanto que representan casi la mitad
-de las especies de vertebrados a escala global @bingpeng2018 resaltando
-así su importancia tanto en sistemas naturales como para la provisión de
-servicios ecosistémicos @rönnbäck2007
+Los sistemas costeros son unos de los más afectados por las actividades humanas, especialmente porque hay una tendencia que favorece el desarrollo de nucleos poblacionales cercanos a la costa debido a que facilita actividades como el turismo y la pesca [@barragán2015] en especifico para estas dos actividades es importante conocer la biodiversidad de los sistemas marinos para poder aprovecharlos y conservarlos adecuadamente. Los peces en particular son un grupo de organismos muy conocido y abundante, tanto que representan casi la mitad de las especies de vertebrados a escala global [@bingpeng2018] resaltando así su importancia tanto en sistemas naturales como para la provisión de servicios ecosistémicos [@rönnbäck2007] . Se sabe sin embargo que tanto los peces de agua dulce como los de agua salada son amenazados por dramáticos decrementos poblacionales y un riesgo de extinción en aumento [@arthington2016]. Por estas razones, es imperante conocer los factores que moldean la composición de especies; en el caso de sistemas acuáticos, el sustrato juega un papel esencial, ya la mayoría de los organismos utilizan un componente de este en algún punto de su ciclo de vida [@rönnbäck2007]. Uno de los componentes más importantes del sustrato es la vegetación que lo acompaña. Este estudio se centra en caracterizar la diversidad de peces en la zona costera, para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo; siendo la vegetación una caracteristica altamente contrastante, ya que el cuyo al ser una zona relativamente más conservada, no está asociado a las grandes coberturas de pastos marinos como las que se ven en Dzilam de Bravo, un sitio más perturbado, sobre todo por la descarga de agua contaminada en el mar [@kantunmanzano2018], se espera que por las características ambientales diferentes, la composición de especies en ambos sitios sea distinta.
 
 # Métodos
 
-Los muestreos se realizaron en mayo de 2024 en dos municipios ubicados
-en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). El
-mes en el que se hizo el muestreo coincide con la temporada de secas de
-la región ().
+Los muestreos se realizaron en mayo de 2024 en dos municipios ubicados en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). El mes en el que se hizo el muestreo coincide con la temporada de secas de la región ().
 
 *Muestreo*
 
-Se realizó el muestreo siguiendo la metodología propuesta en el
-protocolo AGRRA para peces (AGRRA, 2016). Debido a que esta metodología
-esta dirigida a ecosistema coralinos se les hizo modificaciones como el
-largo de los transectos (20 metros) y la profundidad de nado. Los
-muestreos se realizaron en dos horas del día: mañana (5:00 hrs a 11:30
-hrs) y en la tarde (16:00 hrs a 18:30 hrs).
+Se realizó el muestreo siguiendo la metodología propuesta en el protocolo AGRRA para peces (AGRRA, 2016). Debido a que esta metodología esta dirigida a ecosistema coralinos se les hizo modificaciones como el largo de los transectos (20 metros) y la profundidad de nado. Los muestreos se realizaron en dos horas del día: mañana (5:00 hrs a 11:30 hrs) y en la tarde (16:00 hrs a 18:30 hrs).
 
-La presencia de pescadores en El Cuyo nos permitio, además de hacer el
-senso visual, realizar entrevistas sobre los peces que normalmente se
-puden capturar en la zona del muelle turistico ().
+La presencia de pescadores en El Cuyo nos permitio, además de hacer el senso visual, realizar entrevistas sobre los peces que normalmente se puden capturar en la zona del muelle turistico ().
 
 # Resultados
 
-@fig-meaningless is generated using an R chunk.
+@fig-mds is generated using an R chunk.
 
 ```{r}
 #| label: fig-mds
@@ -102,6 +82,9 @@ puden capturar en la zona del muelle turistico ().
 #| fig-align: center
 #| out-width: 50%
 #| echo: false
+#| message: false
+#| warning: false
+#| results: hide
 
 library(vegan)
 library(ggplot2)
@@ -121,8 +104,7 @@ ggplot(mds, aes(x = MDS1, y = MDS2))+
 
 # Tables coming from R
 
-Tables can also be generated using R chunks, as shown in @tbl-simple
-example.
+Tables can also be generated using R chunks, as shown in @tbl-simple example.
 
 ```{r}
 #| label: tbl-simple
@@ -130,5 +112,20 @@ example.
 #| echo: true
 knitr::kable(head(mtcars)[,1:4])
 ```
+
+# Discusión {.unnumbered}
+
+lang:es
+
+Los resultados muestran una composición de especies distintas en ambos sitios, esto se ve respaldado gráficamente en la fig. 1, y numéricamente con el valor obtenido de PERMANOVA \[poner el valor\], proponemos que una de las causas principales de este cambio se puede deber a las condiciones ambientales, tanto de la columna de agua como de el sustrato, se puede ver además en la fig. 1 que también se ve un patrón entre las especies observadas en la mañana y la tarde en ambos sitios.
+
+# Conclusión {.unnumbered}
+
+El protocolo AGRRA para peces brinda una opción de muestreo estandarizado y accesible no solo para fines de docencia si no para la investigación formal, los resultados
+
+## Reconocimiento
+
+Esta investigación va dedicada al Dr. Edlin Guerra y la Dra. Maria Muciño por guiarnos en la realización de la misma. Tambien a don Chuy por invitarnos unas aguas de coco, una disculpa a este último porque no nos la acabamos y tuvimos que tirar dos porque ya olían gacho, para proximos estudios sugerimos dar nuestra tanda. Abrazo, abrazo, beso, beso, abrazo, abrazo, besote, abracito, beso, besito.
+
 
 # References {.unnumbered}

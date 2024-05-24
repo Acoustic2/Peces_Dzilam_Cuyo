@@ -26,6 +26,7 @@ ggplot(mds, aes(x = MDS1, y = MDS2))+
 
 
   
+
 #Análisis de riqueza potencial en ambos sitios 
 
 library(vegan)
