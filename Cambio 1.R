@@ -25,7 +25,10 @@ ggplot(mds, aes(x = MDS1, y = MDS2))+
   theme_bw()
 
 
+
   
+
+
 
 #Análisis de riqueza potencial en ambos sitios 
 
@@ -52,3 +55,25 @@ MC,MCL,R_OJO,RAYA,PGLOBO,R_CUERPO,R_AMARILLO,M_UROP,ANCHOA,R_ROJAS,AGUJA,T.grise
 "
 datos_beta <- read.table(textConnection(data_text), header = TRUE, sep = ",")
 
+
+#Curva de acumulación de especies 
+
+gamma <- specpool(x = datos_numeros, pool = datos$Sitio)
+
+SAC_dz <- specaccum(datos_numeros[1:40,])
+plot(SAC_dz)
+sdz <- SAC_dz$richness
+
+SAC_cu <- specaccum(datos_numeros[41:80,])
+scu <- SAC_cu$richness
+plot(SAC_cu)
+
+SAC <- data.frame(
+  "Esfuerzo" = c(1:40,1:40),
+  "S" = c(sdz,scu),
+  "Localidad" = c(rep("Dzilam",40),rep("El Cuyo", 40)))
+
+ggplot(SAC, aes(x = Esfuerzo, y = S, colour = Localidad))+
+  geom_line(linewidth = 2)+
+  scale_y_continuous(breaks = seq(1, 25, 1))+
+  theme_bw()
