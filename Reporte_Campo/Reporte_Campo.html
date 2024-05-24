@@ -56,7 +56,26 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="Reporte_Campo_files/libs/clipboard/clipboard.min.js"></script>
@@ -118,12 +137,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>abstract: | El presente estudio es enfocado a conocer y comparar la diversidad de especies de peces en dos sitios dentro del Estado de Yucatán con diferentes condiciones ambientales, Dzilam de Bravo y El Cuyo. Se utilizó el protocolo AGRRA para muestreo de peces en ambos sitios y en dos tiempos: mañana y tarde. Los resultados mostraron una diferencia en las especies observadas tanto en espacio como en tiempo [(sin embargo) fueron o no significativas]. Este estudio provee de una base para la investigación, programas de coservación y manejo de recursos. Se recomienda para futuros trabajos muestreos en escalas más amplias de tiempo keywords: - Peces - Biodiversidad - AGRRA - Caracterización date: last-modified bibliography: bibliography.bib format: elsevier-pdf: keep-tex: true journal: name: Journal Name formatting: preprint model: 3p cite-style: super editor: markdown: wrap: 72 —</p>
+<p>abstract: | El presente estudio es enfocado a conocer y comparar la diversidad de especies de peces en dos sitios dentro del Estado de Yucatán con diferentes condiciones ambientales, Dzilam de Bravo y El Cuyo. Se utilizó el protocolo AGRRA para muestreo de peces en ambos sitios y en dos tiempos: mañana y tarde. Los resultados mostraron una diferencia en las especies observadas tanto en espacio como en tiempo [(sin embargo) fueron o no significativas]. Este estudio provee de una base para la investigación, programas de coservación y manejo de recursos. Se recomienda para futuros trabajos muestreos en escalas más amplias de tiempo, así como la medición de las variables ambientales.</p>
+<p>keywords: - Peces - Biodiversidad - AGRRA - Caracterización date: last-modified bibliography: bibliography.bib format: elsevier-pdf: keep-tex: true journal: name: Journal Name formatting: preprint model: 3p cite-style: super editor: markdown: wrap: 72 —</p>
 <p>Esta investigación va dedicada al Dr.&nbsp;Edlin Guerra y la Dra. Maria Muciño por guiarnos en la realización de la misma. Tambien a don Chuy por invitarnos unas aguas de coco, una disculpa a este último porque no nos la acabamos y tuvimos que tirar dos porque ya olían gacho, para proximos estudios sugerimos dar nuestra tanda. Abrazo, abrazo, beso, beso, abrazo, abrazo, besote, abracito, beso, besito.</p>
 <p>For detailed instructions regarding the elsevier article class, see <a href="https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions" class="uri">https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions</a></p>
 <section id="introducción" class="level1">
 <h1>Introducción</h1>
-<p>Los sistemas costeros son unos de los más afectados por las actividades humanas, especialmente porque hay una tendencia que favorece el desarrollo de nucleos poblacionales cercanos a la costa debido a que facilita actividades como el turismo y la pesca <span class="citation" data-cites="barragán2015">@barragán2015</span> en especifico para estas dos actividades es importante conocer la biodiversidad de los sistemas marinos para poder aprovecharlos y conservarlos adecuadamente. Los peces en particular son un grupo de organismos muy conocido y abundante, tanto que representan casi la mitad de las especies de vertebrados a escala global <span class="citation" data-cites="bingpeng2018">@bingpeng2018</span> resaltando así su importancia tanto en sistemas naturales como para la provisión de servicios ecosistémicos <span class="citation" data-cites="rönnbäck2007">@rönnbäck2007</span> . Se sabe sin embargo que tanto los peces de agua dulce como los de agua salada son amenazados por dramáticos decrementos poblacionales y un riesgo de extinción en aumento <span class="citation" data-cites="arthington2016">[@arthington2016]</span>. Por estas razones, es imperante conocer los factores que moldean la composición de especies; en el caso de sistemas acuáticos, el sustrato juega un papel esencial, ya la mayoría de los organismos utilizan un componente de este en algún punto de su ciclo de vida <span class="citation" data-cites="rönnbäck2007">@rönnbäck2007</span>. Uno de los componentes más importantes del sustrato es la vegetación que lo acompaña. Este estudio se centra en caracterizar la diversidad de peces en la zona costera, para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo; siendo la vegetación una caracteristica altamente contrastante, ya que el cuyo al ser una zona relativamente más conservada, no está asociado a las grandes coberturas de pastos marinos como las que se ven en Dzilam de Bravo, un sitio más perturbado.</p>
+<p>Los sistemas costeros son unos de los más afectados por las actividades humanas, especialmente porque hay una tendencia que favorece el desarrollo de nucleos poblacionales cercanos a la costa debido a que facilita actividades como el turismo y la pesca <span class="citation" data-cites="barragán2015">(<a href="#ref-barragán2015" role="doc-biblioref"><strong>barragán2015?</strong></a>)</span> en especifico para estas dos actividades es importante conocer la biodiversidad de los sistemas marinos para poder aprovecharlos y conservarlos adecuadamente. Los peces en particular son un grupo de organismos muy conocido y abundante, tanto que representan casi la mitad de las especies de vertebrados a escala global <span class="citation" data-cites="bingpeng2018">(<a href="#ref-bingpeng2018" role="doc-biblioref"><strong>bingpeng2018?</strong></a>)</span> resaltando así su importancia tanto en sistemas naturales como para la provisión de servicios ecosistémicos <span class="citation" data-cites="rönnbäck2007">(<a href="#ref-rönnbäck2007" role="doc-biblioref"><strong>rönnbäck2007?</strong></a>)</span> . Se sabe sin embargo que tanto los peces de agua dulce como los de agua salada son amenazados por dramáticos decrementos poblacionales y un riesgo de extinción en aumento <span class="citation" data-cites="arthington2016">(<a href="#ref-arthington2016" role="doc-biblioref"><strong>arthington2016?</strong></a>)</span>. Por estas razones, es imperante conocer los factores que moldean la composición de especies; en el caso de sistemas acuáticos, el sustrato juega un papel esencial, ya la mayoría de los organismos utilizan un componente de este en algún punto de su ciclo de vida <span class="citation" data-cites="rönnbäck2007">(<a href="#ref-rönnbäck2007" role="doc-biblioref"><strong>rönnbäck2007?</strong></a>)</span>. Uno de los componentes más importantes del sustrato es la vegetación que lo acompaña. Este estudio se centra en caracterizar la diversidad de peces en la zona costera, para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo; siendo la vegetación una caracteristica altamente contrastante, ya que el cuyo al ser una zona relativamente más conservada, no está asociado a las grandes coberturas de pastos marinos como las que se ven en Dzilam de Bravo, un sitio más perturbado, sobre todo por la descarga de agua contaminada en el mar <span class="citation" data-cites="kantunmanzano2018">(<a href="#ref-kantunmanzano2018" role="doc-biblioref">Kantun Manzano et&nbsp;al. 2018</a>)</span>, se espera que por las características ambientales diferentes, la composición de especies en ambos sitios sea distinta.</p>
 </section>
 <section id="métodos" class="level1">
 <h1>Métodos</h1>
@@ -153,32 +173,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Run 0 stress 0.1175441 
-Run 1 stress 0.1393527 
-Run 2 stress 0.1292285 
-Run 3 stress 0.1336702 
-Run 4 stress 0.126158 
-Run 5 stress 0.1251256 
-Run 6 stress 0.1179552 
-... Procrustes: rmse 0.005576527  max resid 0.03681744 
-Run 7 stress 0.1328668 
-Run 8 stress 0.1208457 
-Run 9 stress 0.125098 
-Run 10 stress 0.1278364 
-Run 11 stress 0.3434671 
-Run 12 stress 0.1203672 
-Run 13 stress 0.1179548 
-... Procrustes: rmse 0.00552717  max resid 0.03670985 
-Run 14 stress 0.1279703 
-Run 15 stress 0.1266808 
-Run 16 stress 0.121637 
-Run 17 stress 0.1267977 
-Run 18 stress 0.1255987 
-Run 19 stress 0.140602 
-Run 20 stress 0.1353571 
-*** Best solution was not repeated -- monoMDS stopping criteria:
-     1: no. of iterations &gt;= maxit
-    18: stress ratio &gt; sratmax
-     1: scale factor of the gradient &lt; sfgrmin</code></pre>
+Run 1 stress 0.124601 
+Run 2 stress 0.117544 
+... New best solution
+... Procrustes: rmse 8.171589e-05  max resid 0.0003237226 
+... Similar to previous best
+Run 3 stress 0.1266047 
+Run 4 stress 0.1186929 
+Run 5 stress 0.1313314 
+Run 6 stress 0.1484443 
+Run 7 stress 0.1283603 
+Run 8 stress 0.1193557 
+Run 9 stress 0.1217922 
+Run 10 stress 0.128614 
+Run 11 stress 0.1189155 
+Run 12 stress 0.1188864 
+Run 13 stress 0.126073 
+Run 14 stress 0.1330455 
+Run 15 stress 0.1241492 
+Run 16 stress 0.1406481 
+Run 17 stress 0.1222922 
+Run 18 stress 0.1208494 
+Run 19 stress 0.1240646 
+Run 20 stress 0.132934 
+*** Best solution repeated 1 times</code></pre>
 </div>
 <div class="cell-output-display">
 <div id="fig-mds" class="quarto-figure quarto-figure-center anchored">
@@ -257,11 +275,25 @@ Run 20 stress 0.1353571
 </div>
 </div>
 </section>
+<section id="discusión" class="level1 unnumbered">
+<h1 class="unnumbered">Discusión</h1>
+<p>lang:es</p>
+<p>Los resultados muestran una composición de especies distintas en ambos sitios, esto se ve respaldado gráficamente en la fig.&nbsp;1, y numéricamente con el valor obtenido de PERMANOVA [poner el valor], proponemos que una de las causas principales de este cambio se puede deber a las condiciones ambientales, tanto de la columna de agua como de el sustrato, se puede ver además en la fig.&nbsp;1 que también se ve un patrón entre las especies observadas en la mañana y la tarde en ambos sitios.</p>
+</section>
+<section id="conclusión" class="level1 unnumbered">
+<h1 class="unnumbered">Conclusión</h1>
+<p>El protocolo AGRRA para peces brinda una opción de muestreo estandarizado y accesible no solo para fines de docencia si no para la investigación formal, los resultados</p>
+</section>
 <section id="references" class="level1 unnumbered">
-<h1 class="unnumbered">References</h1>
+
+
 </section>
 
-</main>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-kantunmanzano2018" class="csl-entry" role="listitem">
+Kantun Manzano, Cristian, Flor Arcega-Cabrera, Morgane Derrien, Elsa Noreña-Barroso, y Jorge Herrera-Silveira. 2018. <span>«Submerged Groundwater Discharges as Source of Fecal Material in Protected Karstic Coastal Areas»</span>. <em>Geofluids</em> 2018 (marzo): 1-11. <a href="https://doi.org/10.1155/2018/9736260">https://doi.org/10.1155/2018/9736260</a>.
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

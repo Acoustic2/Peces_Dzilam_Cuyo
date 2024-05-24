@@ -58,17 +58,54 @@ editor:
 
 # Introducción
 
-Los sistemas costeros son unos de los más afectados por las actividades humanas, especialmente porque hay una tendencia que favorece el desarrollo de nucleos poblacionales cercanos a la costa debido a que facilita actividades como el turismo y la pesca [@barragán2015] en especifico para estas dos actividades es importante conocer la biodiversidad de los sistemas marinos para poder aprovecharlos y conservarlos adecuadamente. Los peces en particular son un grupo de organismos muy conocido y abundante, tanto que representan casi la mitad de las especies de vertebrados a escala global [@bingpeng2018] resaltando así su importancia tanto en sistemas naturales como para la provisión de servicios ecosistémicos [@rönnbäck2007] . Se sabe sin embargo que tanto los peces de agua dulce como los de agua salada son amenazados por dramáticos decrementos poblacionales y un riesgo de extinción en aumento [@arthington2016]. Por estas razones, es imperante conocer los factores que moldean la composición de especies; en el caso de sistemas acuáticos, el sustrato juega un papel esencial, ya la mayoría de los organismos utilizan un componente de este en algún punto de su ciclo de vida [@rönnbäck2007]. Uno de los componentes más importantes del sustrato es la vegetación que lo acompaña. Este estudio se centra en caracterizar la diversidad de peces en la zona costera, para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo; siendo la vegetación una caracteristica altamente contrastante, ya que el cuyo al ser una zona relativamente más conservada, no está asociado a las grandes coberturas de pastos marinos como las que se ven en Dzilam de Bravo, un sitio más perturbado, sobre todo por la descarga de agua contaminada en el mar [@kantunmanzano2018], se espera que por las características ambientales diferentes, la composición de especies en ambos sitios sea distinta.
+Los sistemas costeros son unos de los más afectados por las actividades
+humanas, especialmente porque hay una tendencia que favorece el
+desarrollo de nucleos poblacionales cercanos a la costa debido a que
+facilita actividades como el turismo y la pesca [@barragán2015] en
+especifico para estas dos actividades es importante conocer la
+biodiversidad de los sistemas marinos para poder aprovecharlos y
+conservarlos adecuadamente. Los peces en particular son un grupo de
+organismos muy conocido y abundante, tanto que representan casi la mitad
+de las especies de vertebrados a escala global [@bingpeng2018]
+resaltando así su importancia tanto en sistemas naturales como para la
+provisión de servicios ecosistémicos [@rönnbäck2007] . Se sabe sin
+embargo que tanto los peces de agua dulce como los de agua salada son
+amenazados por dramáticos decrementos poblacionales y un riesgo de
+extinción en aumento [@arthington2016]. Por estas razones, es imperante
+conocer los factores que moldean la composición de especies; en el caso
+de sistemas acuáticos, el sustrato juega un papel esencial, ya la
+mayoría de los organismos utilizan un componente de este en algún punto
+de su ciclo de vida [@rönnbäck2007]. Uno de los componentes más
+importantes del sustrato es la vegetación que lo acompaña. Este estudio
+se centra en caracterizar la diversidad de peces en la zona costera,
+para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo; siendo la
+vegetación una caracteristica altamente contrastante, ya que el cuyo al
+ser una zona relativamente más conservada, no está asociado a las
+grandes coberturas de pastos marinos como las que se ven en Dzilam de
+Bravo, un sitio más perturbado, sobre todo por la descarga de agua
+contaminada en el mar [@kantunmanzano2018], se espera que por las
+características ambientales diferentes, la composición de especies en
+ambos sitios sea distinta.
 
 # Métodos
 
-Los muestreos se realizaron en mayo de 2024 en dos municipios ubicados en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). El mes en el que se hizo el muestreo coincide con la temporada de secas de la región ().
+Los muestreos se realizaron en mayo de 2024 en dos municipios ubicados
+en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). El
+mes en el que se hizo el muestreo coincide con la temporada de secas de
+la región ().
 
 *Muestreo*
 
-Se realizó el muestreo siguiendo la metodología propuesta en el protocolo AGRRA para peces (AGRRA, 2016). Debido a que esta metodología esta dirigida a ecosistema coralinos se les hizo modificaciones como el largo de los transectos (20 metros) y la profundidad de nado. Los muestreos se realizaron en dos horas del día: mañana (5:00 hrs a 11:30 hrs) y en la tarde (16:00 hrs a 18:30 hrs).
+Se realizó el muestreo siguiendo la metodología propuesta en el
+protocolo AGRRA para peces (AGRRA, 2016). Debido a que esta metodología
+esta dirigida a ecosistema coralinos se les hizo modificaciones como el
+largo de los transectos (20 metros) y la profundidad de nado. Los
+muestreos se realizaron en dos horas del día: mañana (5:00 hrs a 11:30
+hrs) y en la tarde (16:00 hrs a 18:30 hrs).
 
-La presencia de pescadores en El Cuyo nos permitio, además de hacer el senso visual, realizar entrevistas sobre los peces que normalmente se puden capturar en la zona del muelle turistico ().
+La presencia de pescadores en El Cuyo nos permitio, además de hacer el
+senso visual, realizar entrevistas sobre los peces que normalmente se
+puden capturar en la zona del muelle turistico ().
 
 # Resultados
 
@@ -104,7 +141,8 @@ ggplot(mds, aes(x = MDS1, y = MDS2))+
 
 # Tables coming from R
 
-Tables can also be generated using R chunks, as shown in @tbl-simple example.
+Tables can also be generated using R chunks, as shown in @tbl-simple
+example.
 
 ```{r}
 #| label: tbl-simple
@@ -113,19 +151,52 @@ Tables can also be generated using R chunks, as shown in @tbl-simple example.
 knitr::kable(head(mtcars)[,1:4])
 ```
 
-# Discusión {.unnumbered}
+# Discusión y Conclusión {.unnumbered}
 
 lang:es
 
-Los resultados muestran una composición de especies distintas en ambos sitios, esto se ve respaldado gráficamente en la fig. 1, y numéricamente con el valor obtenido de PERMANOVA \[poner el valor\], proponemos que una de las causas principales de este cambio se puede deber a las condiciones ambientales, tanto de la columna de agua como de el sustrato, se puede ver además en la fig. 1 que también se ve un patrón entre las especies observadas en la mañana y la tarde en ambos sitios.
+Los resultados muestran una composición de especies distintas en ambos
+sitios, esto se ve respaldado gráficamente en la fig. 1, y numéricamente
+con el valor obtenido de PERMANOVA \[poner el valor\], proponemos que
+una de las causas principales de este cambio se puede deber a las
+condiciones ambientales, tanto de la columna de agua como de el
+sustrato, se puede ver además en la fig. 1 que también se ve un patrón
+entre las especies observadas en la mañana y la tarde en ambos sitios.
+La curva de asimilación (fig. no se) mostró resultados dentro de lo
+esperado, puesto que se puede observar la asíntota para el sitio de
+Dzilam de bravo, mientras que la tendencia lineal en la de El Cuyo
+indica que se requiere de un mayor esfuerzo de muestreo para representar
+la diversidad de especies para todo el sitio [@colwell2004]. Se
+realizaron encuestas a tres pescadores en el puerto turístico de El Cuyo
+preguntando acerca de que especies se pueden pescar en el sitio, los
+resultados fueron: \[ \]; esto da un indicio acerca de que especies se
+pudieron haber observado con un mayor esfuerzo de muestreo y/o con
+condiciones ambientales más favorables.
 
-# Conclusión {.unnumbered}
-
-El protocolo AGRRA para peces brinda una opción de muestreo estandarizado y accesible no solo para fines de docencia si no para la investigación formal, los resultados
+El protocolo AGRRA para peces brinda una opción de muestreo
+estandarizado y accesible no solo para fines de docencia si no para la
+investigación formal. Se recomienda para próximos trabajos aumentar el
+esfuerzo de muestreo para El Cuyo, así como considerar posibles
+inconvenientes inesperados como la turbidez anormal del agua, se
+reconoce asimismo que la estacionalidad podría estar jugando un papel
+importante en la presencia y ausencia de especies de los sitios, por
+ejemplo, las descargas de agua dulce rica en nutrientes durante la
+primavera y verano [@valle-levinson2011] hacia la costa este de la
+península tiene una tendencia de dispersarse hacia el golfo de México
+[@enriquez2010] cuya influencia podría llegar hasta Dzilam de Bravo y El
+Cuyo.
 
 ## Reconocimiento
 
-Esta investigación va dedicada al Dr. Edlin Guerra y la Dra. Maria Muciño por guiarnos en la realización de la misma. Tambien a don Chuy por invitarnos unas aguas de coco, una disculpa a este último porque no nos la acabamos y tuvimos que tirar dos porque ya olían gacho, para proximos estudios sugerimos dar nuestra tanda. Abrazo, abrazo, beso, beso, abrazo, abrazo, besote, abracito, beso, besito.
+Esta investigación va dedicada al Dr. Edlin Guerra y la Dra. Maria
+Muciño por guiarnos en la realización de la misma. Tambien a don Chuy
+por invitarnos unas aguas de coco, una disculpa a este último porque no
+nos la acabamos y tuvimos que tirar dos porque ya olían gacho, para
+proximos estudios sugerimos dar nuestra tanda. Abrazo, abrazo, beso,
+beso, abrazo, abrazo, besote, abracito, beso, besito.
 
+# Conflictos de Interés {.unnumbered}
+
+Los autores declaran que no hay conflictos de interés
 
 # References {.unnumbered}
