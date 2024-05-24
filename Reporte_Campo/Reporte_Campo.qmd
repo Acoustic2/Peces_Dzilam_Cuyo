@@ -90,7 +90,6 @@ ambos sitios sea distinta.
 # Métodos
 
 Los muestreos se realizaron en mayo de 2024 en dos municipios ubicados
-<<<<<<< HEAD
 en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). Esta
 región esta caracterizada por tres temporadas climáticas, que son la
 seca (), lluvias y nortes. El mes en el que se hizo el muestreo coincide
@@ -122,24 +121,6 @@ También se realizó un MDS utilizando el paquete vegan[@vegan].
 Finalmente, utilizando el estimador no paramétrico Chao2 [@chao2014a] se
 hizo una curva de acumulación de especies comparando los sitios de
 muestreo.
-=======
-en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). El
-mes en el que se hizo el muestreo coincide con la temporada de secas de
-la región ().
-
-*Muestreo*
-
-Se realizó el muestreo siguiendo la metodología propuesta en el
-protocolo AGRRA para peces (AGRRA, 2016). Debido a que esta metodología
-esta dirigida a ecosistema coralinos se les hizo modificaciones como el
-largo de los transectos (20 metros) y la profundidad de nado. Los
-muestreos se realizaron en dos horas del día: mañana (5:00 hrs a 11:30
-hrs) y en la tarde (16:00 hrs a 18:30 hrs).
-
-La presencia de pescadores en El Cuyo nos permitio, además de hacer el
-senso visual, realizar entrevistas sobre los peces que normalmente se
-puden capturar en la zona del muelle turistico ().
->>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 
 # Resultados
 
@@ -211,20 +192,11 @@ knitr::kable(head(mtcars)[,1:4])
 lang:es
 
 Los resultados muestran una composición de especies distintas en ambos
-sitios, esto se ve respaldado gráficamente en la fig. 1, y numéricamente
-con el valor obtenido de PERMANOVA \[poner el valor\], proponemos que
+sitios, esto se ve respaldado gráficamente en la fig. 1, proponemos que
 una de las causas principales de este cambio se puede deber a las
 condiciones ambientales, tanto de la columna de agua como de el
 sustrato, se puede ver además en la fig. 1 que también se ve un patrón
 entre las especies observadas en la mañana y la tarde en ambos sitios.
-<<<<<<< HEAD
-
-# Conclusión {.unnumbered}
-
-El protocolo AGRRA para peces brinda una opción de muestreo
-estandarizado y accesible no solo para fines de docencia si no para la
-investigación formal, los resultados
-=======
 La curva de asimilación (fig. no se) mostró resultados dentro de lo
 esperado, puesto que se puede observar la asíntota para el sitio de
 Dzilam de bravo, mientras que la tendencia lineal en la de El Cuyo
@@ -248,7 +220,6 @@ primavera y verano [@valle-levinson2011] hacia la costa este de la
 península tiene una tendencia de dispersarse hacia el golfo de México
 [@enriquez2010] cuya influencia podría llegar hasta Dzilam de Bravo y El
 Cuyo.
->>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 
 ## Reconocimiento
 
@@ -258,12 +229,9 @@ por invitarnos unas aguas de coco, una disculpa a este último porque no
 nos la acabamos y tuvimos que tirar dos porque ya olían gacho, para
 proximos estudios sugerimos dar nuestra tanda. Abrazo, abrazo, beso,
 beso, abrazo, abrazo, besote, abracito, beso, besito.
-<<<<<<< HEAD
-=======
 
 # Conflictos de Interés {.unnumbered}
 
 Los autores declaran que no hay conflictos de interés
->>>>>>> 253bd899c418157ee5cf672625e67e8d0fe9f4a8
 
 # References {.unnumbered}
