@@ -4,7 +4,7 @@
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-  super,
+  authoryear,
   preprint,
   3p]{elsarticle}
 
@@ -126,19 +126,19 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
 \ifdefined\contentsname
-  \renewcommand*\contentsname{Tabla de contenidos}
+  \renewcommand*\contentsname{Table of contents}
 \else
-  \newcommand\contentsname{Tabla de contenidos}
+  \newcommand\contentsname{Table of contents}
 \fi
 \ifdefined\listfigurename
-  \renewcommand*\listfigurename{Listado de Figuras}
+  \renewcommand*\listfigurename{List of Figures}
 \else
-  \newcommand\listfigurename{Listado de Figuras}
+  \newcommand\listfigurename{List of Figures}
 \fi
 \ifdefined\listtablename
-  \renewcommand*\listtablename{Listado de Tablas}
+  \renewcommand*\listtablename{List of Tables}
 \else
-  \newcommand\listtablename{Listado de Tablas}
+  \newcommand\listtablename{List of Tables}
 \fi
 \ifdefined\figurename
   \renewcommand*\figurename{Figura}
@@ -154,8 +154,8 @@
 \@ifpackageloaded{float}{}{\usepackage{float}}
 \floatstyle{ruled}
 \@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
-\floatname{codelisting}{Listado}
-\newcommand*\listoflistings{\listof{codelisting}{Listado de Listados}}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
 \makeatother
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
@@ -173,27 +173,17 @@
 \makeatother
 \journal{Journal Name}
 \ifLuaTeX
-\usepackage[bidi=basic]{babel}
-\else
-\usepackage[bidi=default]{babel}
-\fi
-\babelprovide[main,import]{spanish}
-% get rid of language-specific shorthands (see #6817):
-\let\LanguageShortHands\languageshorthands
-\def\languageshorthands#1{}
-\ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \usepackage[]{natbib}
-\bibliographystyle{elsarticle-num}
+\bibliographystyle{elsarticle-harv}
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
   pdftitle={Short Paper},
-  pdfauthor={Emilio García; Miguel Güemez},
-  pdflang={es},
-  pdfkeywords={keyword1, keyword2},
+  pdfauthor={Miguel Guemez; Jose García},
+  pdfkeywords={Peces, Biodiversidad, AGRRA, Caracterizacion},
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
@@ -206,35 +196,34 @@
 
 \begin{frontmatter}
 \title{Short Paper \\\large{A Short Subtitle} }
-\author[1]{Emilio García%
-\corref{cor1}%
-\fnref{fn1}}
- \ead{319227105@enesmerida.unam.mx} 
-\author[1]{Miguel Güemez%
+\author[1]{Miguel Guemez%
 %
-\fnref{fn2}}
+}
  \ead{422003010@enesmerida.unam.mx} 
+\author[1]{Jose García%
+\corref{cor1}%
+}
+ \ead{319227105@enesmerida.unam.mx} 
 
 \affiliation[1]{organization={Universidad Nacional Autónoma de
 México, ENES
-Merida},addressline={Mérida-Tetiz},city={Merida},postcode={97357},postcodesep={}}
+Merida},addressline={Mérida-Tetíz},city={Merida},postcode={97357},postcodesep={}}
 
 \cortext[cor1]{Corresponding author}
-\fntext[fn1]{This is the first author footnote.}
-\fntext[fn2]{Another author footnote, this is a very long footnote and
-it should be a really long footnote. But this footnote is not yet
-sufficiently long enough to make two lines of footnote text.}
+
+
         
 \begin{abstract}
 El presente estudio es enfocado a conocer y comparar la diversidad de
 especies de peces en dos sitios dentro del Estado de Yucatán con
 diferentes condiciones ambientales, Dzilam de Bravo y El Cuyo. Se
 utilizó el protocolo AGRRA para muestreo de peces en ambos sitios y en
-dos tiempos: mañana y tarde. Los resultados mostraron una diferencia en
-las especies observadas tanto en espacio como en tiempo {[}(sin embargo)
-fueron o no significativas{]}. Este estudio provee de una base para la
+dos tiempos (mañana y tarde). Los resultados mostraron una diferencia en
+las especies observadas tanto en espacio como en tiempo, sin embargo,
+fueron o no significativas. Este estudio provee de una base para la
 investigación, programas de coservación y manejo de recursos. Se
-recomienda para futuros trabajos
+recomienda para futuros trabajos muestreos en escalas más amplias de
+tiempo, así como la medición de las variables ambientales.
 \end{abstract}
 
 
@@ -242,19 +231,11 @@ recomienda para futuros trabajos
 
 
 \begin{keyword}
-    keyword1 \sep 
-    keyword2
+    Peces \sep Biodiversidad \sep AGRRA \sep 
+    Caracterizacion
 \end{keyword}
 \end{frontmatter}
-    \ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, frame hidden, interior hidden, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, enhanced, breakable]}{\end{tcolorbox}}\fi
-
-Please make sure that your manuscript follows the guidelines in the
-Guide for Authors of the relevant journal. It is not necessary to
-typeset your manuscript in exactly the same way as an article, unless
-you are submitting to a camera-ready copy (CRC) journal.
-
-For detailed instructions regarding the elsevier article class, see
-\url{https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions}
+    \ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, frame hidden, interior hidden, sharp corners, enhanced, breakable, boxrule=0pt]}{\end{tcolorbox}}\fi
 
 \hypertarget{introducciuxf3n}{%
 \section{Introducción}\label{introducciuxf3n}}
@@ -262,80 +243,67 @@ For detailed instructions regarding the elsevier article class, see
 Los sistemas costeros son unos de los más afectados por las actividades
 humanas, especialmente porque hay una tendencia que favorece el
 desarrollo de nucleos poblacionales cercanos a la costa debido a que
-facilita actividades como el turismo y la pesca \citet{barragán2015} en
+facilita actividades como el turismo y la pesca \citep{barragán2015} en
 especifico para estas dos actividades es importante conocer la
 biodiversidad de los sistemas marinos para poder aprovecharlos y
 conservarlos adecuadamente. Los peces en particular son un grupo de
 organismos muy conocido y abundante, tanto que representan casi la mitad
-de las especies de vertebrados a escala global \citet{bingpeng2018}
+de las especies de vertebrados a escala global \citep{bingpeng2018}
 resaltando así su importancia tanto en sistemas naturales como para la
-provisión de servicios ecosistémicos \citet{rönnbäck2007}. Por estas
-razones, es imperante conocer los factores que moldean la composición de
-especies; en el caso de sistemas acuáticos, el sustrato juega un papel
-esencial, ya la mayoría de los organismos utilizan un componente de este
-en algún punto de su ciclo de vida \citet{rönnbäck2007}. Uno de los
-componentes más importantes del sustrato es la vegetación que lo
-acompaña. Este estudio se centra en caracterizar la diversidad de peces
-en la zona costera, para lo cual comparamos dos sitios: Dzilam de Bravo
-y El Cuyo; siendo la vegetación una caracteristica altamente
-contrastante, ya que el cuyo al ser una zona relativamente más
-conservada, no está asociado a las grandes coberturas de pastos marinos
-como las que se ven en Dzilam de Bravo, un sitio más perturbado.
+provisión de servicios ecosistémicos \citep{rönnbäck2007} . Se sabe sin
+embargo que tanto los peces de agua dulce como los de agua salada son
+amenazados por dramáticos decrementos poblacionales y un riesgo de
+extinción en aumento \citep{arthington2016}. Por estas razones, es
+imperante conocer los factores que moldean la composición de especies;
+en el caso de sistemas acuáticos, el sustrato juega un papel esencial,
+ya la mayoría de los organismos utilizan un componente de este en algún
+punto de su ciclo de vida \citep{rönnbäck2007}. Uno de los componentes
+más importantes del sustrato es la vegetación que lo acompaña. Este
+estudio se centra en caracterizar la diversidad de peces en la zona
+costera, para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo;
+siendo la vegetación una caracteristica altamente contrastante, ya que
+el cuyo al ser una zona relativamente más conservada, no está asociado a
+las grandes coberturas de pastos marinos como las que se ven en Dzilam
+de Bravo, un sitio más perturbado, sobre todo por la descarga de agua
+contaminada en el mar \citep{kantunmanzano2018}, se espera que por las
+características ambientales diferentes, la composición de especies en
+ambos sitios sea distinta.
 
-\hypertarget{bibliography-styles}{%
-\section{Bibliography styles}\label{bibliography-styles}}
+\hypertarget{muxe9todos}{%
+\section{Métodos}\label{muxe9todos}}
 
-Here are two sample references: \citet{Feynman1963118}
-\citet{Dirac1953888}
+Los muestreos se realizaron en mayo de 2024 en dos municipios ubicados
+en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). El
+mes en el que se hizo el muestreo coincide con la temporada de secas de
+la región ().
 
-By default, natbib will be used with the \texttt{authoryear} style, set
-in \texttt{classoption} variable in YAML. You can sets extra options
-with \texttt{natbiboptions} variable in YAML header. Example
+\emph{Muestreo}
 
-\begin{verbatim}
-natbiboptions: longnamesfirst,angle,semicolon
-\end{verbatim}
+Se realizó el muestreo siguiendo la metodología propuesta en el
+protocolo AGRRA para peces (AGRRA, 2016). Debido a que esta metodología
+esta dirigida a ecosistema coralinos se les hizo modificaciones como el
+largo de los transectos (20 metros) y la profundidad de nado. Los
+muestreos se realizaron en dos horas del día: mañana (5:00 hrs a 11:30
+hrs) y en la tarde (16:00 hrs a 18:30 hrs).
 
-There are various more specific bibliography styles available at
-\url{https://support.stmdocs.in/wiki/index.php?title=Model-wise_bibliographic_style_files}.
-To use one of these, add it in the header using, for example,
-\texttt{biblio-style:\ model1-num-names}.
+La presencia de pescadores en El Cuyo nos permitio, además de hacer el
+senso visual, realizar entrevistas sobre los peces que normalmente se
+puden capturar en la zona del muelle turistico ().
 
-\hypertarget{using-csl}{%
-\subsection{Using CSL}\label{using-csl}}
+\hypertarget{resultados}{%
+\section{Resultados}\label{resultados}}
 
-If \texttt{cite-method} is set to \texttt{citeproc} in
-\texttt{elsevier\_article()}, then pandoc is used for citations instead
-of \texttt{natbib}. In this case, the \texttt{csl} option is used to
-format the references. By default, this template will provide an
-appropriate style, but alternative \texttt{csl} files are available from
-\url{https://www.zotero.org/styles?q=elsevier}. These can be downloaded
-and stored locally, or the url can be used as in the example header.
-
-\hypertarget{equations}{%
-\section{Equations}\label{equations}}
-
-Here is an equation: \[ 
-  f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
-  \left(\frac{x}{\beta}\right)^{\alpha-1}
-  e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
-  \alpha,\beta,x > 0 .
-\]
-
-Inline equations work as well: \(\sum_{i = 2}^\infty\{\alpha_i^\beta\}\)
-
-\hypertarget{figures-and-tables}{%
-\section{Figures and tables}\label{figures-and-tables}}
-
-Figura~\ref{fig-meaningless} is generated using an R chunk.
+Fig.~\ref{fig-mds} is generated using an R chunk.
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{Reporte_Campo_files/figure-pdf/fig-meaningless-1.pdf}
+{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{Reporte_Campo_files/figure-pdf/fig-mds-1.pdf}
 
 }
 
-\caption{\label{fig-meaningless}A meaningless scatterplot}
+\caption{\label{fig-mds}MDS no métrico de las composición y abunndancia
+de peces observadas en Dzilam y el Cuyo, en horario matutino y
+vespertino.}
 
 \end{figure}
 
@@ -353,6 +321,7 @@ Tabla~\ref{tbl-simple} example.
 
 \hypertarget{tbl-simple}{}
 \begin{longtable}[]{@{}lrrrr@{}}
+\caption{\label{tbl-simple}Caption centered above table}\tabularnewline
 \toprule\noalign{}
 & mpg & cyl & disp & hp \\
 \midrule\noalign{}
@@ -369,8 +338,39 @@ Datsun 710 & 22.8 & 4 & 108 & 93 \\
 Hornet 4 Drive & 21.4 & 6 & 258 & 110 \\
 Hornet Sportabout & 18.7 & 8 & 360 & 175 \\
 Valiant & 18.1 & 6 & 225 & 105 \\
-\caption{\label{tbl-simple}Caption centered above table}\tabularnewline
 \end{longtable}
+
+\hypertarget{discusiuxf3n}{%
+\section*{Discusión}\label{discusiuxf3n}}
+\addcontentsline{toc}{section}{Discusión}
+
+lang:es
+
+Los resultados muestran una composición de especies distintas en ambos
+sitios, esto se ve respaldado gráficamente en la fig.~1, y numéricamente
+con el valor obtenido de PERMANOVA {[}poner el valor{]}, proponemos que
+una de las causas principales de este cambio se puede deber a las
+condiciones ambientales, tanto de la columna de agua como de el
+sustrato, se puede ver además en la fig.~1 que también se ve un patrón
+entre las especies observadas en la mañana y la tarde en ambos sitios.
+
+\hypertarget{conclusiuxf3n}{%
+\section*{Conclusión}\label{conclusiuxf3n}}
+\addcontentsline{toc}{section}{Conclusión}
+
+El protocolo AGRRA para peces brinda una opción de muestreo
+estandarizado y accesible no solo para fines de docencia si no para la
+investigación formal, los resultados
+
+\hypertarget{reconocimiento}{%
+\subsection{Reconocimiento}\label{reconocimiento}}
+
+Esta investigación va dedicada al Dr.~Edlin Guerra y la Dra. Maria
+Muciño por guiarnos en la realización de la misma. Tambien a don Chuy
+por invitarnos unas aguas de coco, una disculpa a este último porque no
+nos la acabamos y tuvimos que tirar dos porque ya olían gacho, para
+proximos estudios sugerimos dar nuestra tanda. Abrazo, abrazo, beso,
+beso, abrazo, abrazo, besote, abracito, beso, besito.
 
 
 \renewcommand\refname{References}
