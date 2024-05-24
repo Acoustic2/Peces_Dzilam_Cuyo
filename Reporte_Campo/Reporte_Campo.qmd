@@ -58,19 +58,91 @@ editor:
 
 # Introducción
 
-Los sistemas costeros son unos de los más afectados por las actividades humanas, especialmente porque hay una tendencia que favorece el desarrollo de nucleos poblacionales cercanos a la costa debido a que facilita actividades como el turismo y la pesca [@barragán2015] en especifico para estas dos actividades es importante conocer la biodiversidad de los sistemas marinos para poder aprovecharlos y conservarlos adecuadamente. Los peces en particular son un grupo de organismos muy conocido y abundante, tanto que representan casi la mitad de las especies de vertebrados a escala global [@bingpeng2018] resaltando así su importancia tanto en sistemas naturales como para la provisión de servicios ecosistémicos [@rönnbäck2007] . Se sabe sin embargo que tanto los peces de agua dulce como los de agua salada son amenazados por dramáticos decrementos poblacionales y un riesgo de extinción en aumento [@arthington2016]. Por estas razones, es imperante conocer los factores que moldean la composición de especies; en el caso de sistemas acuáticos, el sustrato juega un papel esencial, ya la mayoría de los organismos utilizan un componente de este en algún punto de su ciclo de vida [@rönnbäck2007]. Uno de los componentes más importantes del sustrato es la vegetación que lo acompaña. Este estudio se centra en caracterizar la diversidad de peces en la zona costera, para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo; siendo la vegetación una caracteristica altamente contrastante, ya que el cuyo al ser una zona relativamente más conservada, no está asociado a las grandes coberturas de pastos marinos como las que se ven en Dzilam de Bravo, un sitio más perturbado, sobre todo por la descarga de agua contaminada en el mar [@kantunmanzano2018], se espera que por las características ambientales diferentes, la composición de especies en ambos sitios sea distinta.
+Los sistemas costeros son unos de los más afectados por las actividades
+humanas, especialmente porque hay una tendencia que favorece el
+desarrollo de nucleos poblacionales cercanos a la costa debido a que
+facilita actividades como el turismo y la pesca [@barragán2015] en
+especifico para estas dos actividades es importante conocer la
+biodiversidad de los sistemas marinos para poder aprovecharlos y
+conservarlos adecuadamente. Los peces en particular son un grupo de
+organismos muy conocido y abundante, tanto que representan casi la mitad
+de las especies de vertebrados a escala global [@bingpeng2018]
+resaltando así su importancia tanto en sistemas naturales como para la
+provisión de servicios ecosistémicos [@rönnbäck2007] . Se sabe sin
+embargo que tanto los peces de agua dulce como los de agua salada son
+amenazados por dramáticos decrementos poblacionales y un riesgo de
+extinción en aumento [@arthington2016]. Por estas razones, es imperante
+conocer los factores que moldean la composición de especies; en el caso
+de sistemas acuáticos, el sustrato juega un papel esencial, ya la
+mayoría de los organismos utilizan un componente de este en algún punto
+de su ciclo de vida [@rönnbäck2007]. Uno de los componentes más
+importantes del sustrato es la vegetación que lo acompaña. Este estudio
+se centra en caracterizar la diversidad de peces en la zona costera,
+para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo; siendo la
+vegetación una caracteristica altamente contrastante, ya que el cuyo al
+ser una zona relativamente más conservada, no está asociado a las
+grandes coberturas de pastos marinos como las que se ven en Dzilam de
+Bravo, un sitio más perturbado, sobre todo por la descarga de agua
+contaminada en el mar [@kantunmanzano2018], se espera que por las
+características ambientales diferentes, la composición de especies en
+ambos sitios sea distinta.
 
 # Métodos
 
-Los muestreos se realizaron en mayo de 2024 en dos municipios ubicados en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). El mes en el que se hizo el muestreo coincide con la temporada de secas de la región ().
+Los muestreos se realizaron en mayo de 2024 en dos municipios ubicados
+en el noreste de Yucatán, México: Dzilam de Bravo () y El Cuyo (). Esta
+región esta caracterizada por tres temporadas climáticas, que son la
+seca (), lluvias y nortes. El mes en el que se hizo el muestreo coincide
+con la temporada de secas de la región.
 
 *Muestreo*
 
-Se realizó el muestreo siguiendo la metodología propuesta en el protocolo AGRRA para peces (AGRRA, 2016). Debido a que esta metodología esta dirigida a ecosistema coralinos se les hizo modificaciones como el largo de los transectos (20 metros) y la profundidad de nado. Los muestreos se realizaron en dos horas del día: mañana (5:00 hrs a 11:30 hrs) y en la tarde (16:00 hrs a 18:30 hrs).
+Para conocer la diversidad ictiológica de los sitios seleccionados, se
+realizó un muestreo siguiendo la metodología propuesta en el protocolo
+AGRRA para peces (AGRRA, 2016). Se hicieron un total de dos trasectos
+por sitio, muestreando en dos horas del día: mañana (5:00 hrs a 11:30
+hrs) y en la tarde (16:00 hrs a 18:30 hrs). Dedido a que la metodología
+esta dirigida a ecosistemas coralinos, se le hizo modificaciones como el
+largo de los transectos, que fueron de 20 metros, y la profundidad de
+nado. La identificación de los peces se hizo mediante el libro "Reef
+fish identification" () y el "Catálogo de peces de la costa norte de
+Yucatán" ().
 
-La presencia de pescadores en El Cuyo nos permitio, además de hacer el senso visual, realizar entrevistas sobre los peces que normalmente se puden capturar en la zona del muelle turistico ().
+La presencia de pescadores en El Cuyo nos permitio, además de hacer el
+senso visual, realizar entrevistas a estos mismos sobre los peces que
+normalmente se puden capturar en la zona del muelle turistico ().
+
+*Análisis de datos*
+
+Para evaluar los datos obtenidos se utilizó el programa de R, donde se
+empleó el índice de similitud de Jaccard para estimar la Beta diversida
+y su partición [@baselga2009] usando el paquete betapart [@betapart].
+También se realizó un MDS utilizando el paquete vegan[@vegan].
+Finalmente, utilizando el estimador no paramétrico Chao2 [@chao2014a] se
+hizo una curva de acumulación de especies comparando los sitios de
+muestreo.
 
 # Resultados
+
+Se observaron un total de 621 peces de 14 especies diferentes. En Dzilam
+de Bravo se observaron 613 individuos de 12 especies diferentes,
+mientras que fueron 8 individuos de 4 especies en El Cuyo. Se debe
+destacar que solo las *Anchoas sp.* y *Sphoeroides testudineus* (pez
+globo) se pudieron observar en ambos sitios.
+
+El índice de similitud de Jaccard obtenido fue bastante alto (0.92),
+donde la mayor parte de la diferencia entre los sitios se debe *Jaccard
+Turnover,* que es la sustitución de especies (0.8) que a *Jaccard NE,*
+que se explica por la anidación (0.12).
+
+El MDS
+
+La curva de acumulación de especies
+
+Las entrevistas se realizaron a tres pescadores, los cuales mencionaron
+el nombre común de las especies que se pueden encontrar en la zona, que
+son el jurel, robalo, corvina, corvina blanca, bagre, sierra, mojarra y
+raya, que dista basnten de lo encontrado en los muestreos visuales.
 
 @fig-mds is generated using an R chunk.
 
@@ -89,14 +161,15 @@ La presencia de pescadores en El Cuyo nos permitio, además de hacer el senso vi
 library(vegan)
 library(ggplot2)
 datos <- read.csv("Peces_Dzilam.csv")
-datos_numeros <- datos[5:19]
+datos_numeros <- datos[6:20]
 dist_datos <- vegdist(sqrt(datos_numeros), method = "bray")
 mds_result <- metaMDS(dist_datos, k = 2)
 # plot(mds_result)
 mds_points <-as.data.frame(mds_result$points)
-mds <- cbind(datos[,1:4], mds_points)
+mds <- cbind(datos[,1:5], mds_points)
 ggplot(mds, aes(x = MDS1, y = MDS2))+
-  geom_point(aes(colour = Sitio, shape = Hora), size = 4)+
+  geom_point(aes(colour = Sitio, shape = Hora, size = Abundancia))+
+  geom_text(aes(x = -0.5, y = 0.8, label = "Estres:0.11"))+
   theme_bw()
 
 
@@ -104,7 +177,8 @@ ggplot(mds, aes(x = MDS1, y = MDS2))+
 
 # Tables coming from R
 
-Tables can also be generated using R chunks, as shown in @tbl-simple example.
+Tables can also be generated using R chunks, as shown in @tbl-simple
+example.
 
 ```{r}
 #| label: tbl-simple
@@ -117,15 +191,27 @@ knitr::kable(head(mtcars)[,1:4])
 
 lang:es
 
-Los resultados muestran una composición de especies distintas en ambos sitios, esto se ve respaldado gráficamente en la fig. 1, y numéricamente con el valor obtenido de PERMANOVA \[poner el valor\], proponemos que una de las causas principales de este cambio se puede deber a las condiciones ambientales, tanto de la columna de agua como de el sustrato, se puede ver además en la fig. 1 que también se ve un patrón entre las especies observadas en la mañana y la tarde en ambos sitios.
+Los resultados muestran una composición de especies distintas en ambos
+sitios, esto se ve respaldado gráficamente en la fig. 1, y numéricamente
+con el valor obtenido de PERMANOVA \[poner el valor\], proponemos que
+una de las causas principales de este cambio se puede deber a las
+condiciones ambientales, tanto de la columna de agua como de el
+sustrato, se puede ver además en la fig. 1 que también se ve un patrón
+entre las especies observadas en la mañana y la tarde en ambos sitios.
 
 # Conclusión {.unnumbered}
 
-El protocolo AGRRA para peces brinda una opción de muestreo estandarizado y accesible no solo para fines de docencia si no para la investigación formal, los resultados
+El protocolo AGRRA para peces brinda una opción de muestreo
+estandarizado y accesible no solo para fines de docencia si no para la
+investigación formal, los resultados
 
 ## Reconocimiento
 
-Esta investigación va dedicada al Dr. Edlin Guerra y la Dra. Maria Muciño por guiarnos en la realización de la misma. Tambien a don Chuy por invitarnos unas aguas de coco, una disculpa a este último porque no nos la acabamos y tuvimos que tirar dos porque ya olían gacho, para proximos estudios sugerimos dar nuestra tanda. Abrazo, abrazo, beso, beso, abrazo, abrazo, besote, abracito, beso, besito.
-
+Esta investigación va dedicada al Dr. Edlin Guerra y la Dra. Maria
+Muciño por guiarnos en la realización de la misma. Tambien a don Chuy
+por invitarnos unas aguas de coco, una disculpa a este último porque no
+nos la acabamos y tuvimos que tirar dos porque ya olían gacho, para
+proximos estudios sugerimos dar nuestra tanda. Abrazo, abrazo, beso,
+beso, abrazo, abrazo, besote, abracito, beso, besito.
 
 # References {.unnumbered}
