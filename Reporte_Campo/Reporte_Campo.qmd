@@ -159,19 +159,28 @@ Los resultados muestran una composición de especies distintas en ambos
 sitios, esto se ve respaldado gráficamente en la fig. 1, y numéricamente
 con el valor obtenido de PERMANOVA \[poner el valor\], proponemos que
 una de las causas principales de este cambio se puede deber a las
-condiciones ambientales, tanto de la columna de agua como de el
-sustrato, se puede ver además en la fig. 1 que también se ve un patrón
-entre las especies observadas en la mañana y la tarde en ambos sitios.
-La curva de asimilación (fig. no se) mostró resultados dentro de lo
-esperado, puesto que se puede observar la asíntota para el sitio de
-Dzilam de bravo, mientras que la tendencia lineal en la de El Cuyo
-indica que se requiere de un mayor esfuerzo de muestreo para representar
-la diversidad de especies para todo el sitio [@colwell2004]. Se
-realizaron encuestas a tres pescadores en el puerto turístico de El Cuyo
-preguntando acerca de que especies se pueden pescar en el sitio, los
-resultados fueron: \[ \]; esto da un indicio acerca de que especies se
-pudieron haber observado con un mayor esfuerzo de muestreo y/o con
-condiciones ambientales más favorables.
+condiciones ambientales, tanto climáticas como fisico-químicas dentro
+columna de agua y el sustrato; como de la vegetación asociada a ambos
+sitios, puesto que la ausencia de pastos en El Cuyo implica la ausencia
+de sus servicios ecosistémicos asociados, en específico su papel como
+sitio de anidación y escondite de macrofauna [@mtwananordlund2016]. Como
+resultado, se espera ver menos especies cuya estrategia de sobrevivencia
+es la evasión o escondite en pastos, mientras que especies con
+estrategias alternativas como la producción de tetrodotoxinas de
+*Sphoeroides testudineus* [@oliveira2003], el cual estuvo ausente en El
+cuyo; o camuflajes de color arenoso se podrían ver en mayor abundancia.
+Se puede ver además en la fig. 1 que también se ve un patrón entre las
+especies observadas en la mañana y la tarde en ambos sitios. La curva de
+asimilación (fig. no se) mostró resultados dentro de lo esperado, puesto
+que se puede observar la asíntota para el sitio de Dzilam de bravo,
+mientras que la tendencia lineal en la de El Cuyo indica que se requiere
+de un mayor esfuerzo de muestreo para representar la diversidad de
+especies para todo el sitio [@colwell2004]. Se realizaron encuestas a
+tres pescadores en el puerto turístico de El Cuyo preguntando acerca de
+que especies se pueden pescar en el sitio, los resultados fueron: \[ \];
+esto da un indicio acerca de que especies se pudieron haber observado
+con un mayor esfuerzo de muestreo y/o con condiciones ambientales más
+favorables.
 
 El protocolo AGRRA para peces brinda una opción de muestreo
 estandarizado y accesible no solo para fines de docencia si no para la
