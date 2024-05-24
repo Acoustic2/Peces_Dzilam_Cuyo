@@ -28,7 +28,24 @@ lang: es
 cap-location: bottom
 ---
 
-abstract: \| El presente estudio es enfocado a conocer y comparar la diversidad de especies de peces en dos sitios dentro del Estado de Yucatán con diferentes condiciones ambientales, Dzilam de Bravo y El Cuyo. Se utilizó el protocolo AGRRA para muestreo de peces en ambos sitios y en dos tiempos: mañana y tarde. Los resultados mostraron una diferencia en las especies observadas tanto en espacio como en tiempo \[(sin embargo) fueron o no significativas\]. Este estudio provee de una base para la investigación, programas de coservación y manejo de recursos. Se recomienda para futuros trabajos muestreos en escalas más amplias de tiempo keywords: - Peces - Biodiversidad - AGRRA - Caracterización date: last-modified bibliography: bibliography.bib format: elsevier-pdf: keep-tex: true journal: name: Journal Name formatting: preprint model: 3p cite-style: super editor: markdown: wrap: 72 ---
+abstract: \| El presente estudio es enfocado a conocer y comparar la diversidad de especies de peces en dos sitios dentro del Estado de Yucatán con diferentes condiciones ambientales, Dzilam de Bravo y El Cuyo. Se utilizó el protocolo AGRRA para muestreo de peces en ambos sitios y en dos tiempos: mañana y tarde. Los resultados mostraron una diferencia en las especies observadas tanto en espacio como en tiempo \[(sin embargo) fueron o no significativas\]. Este estudio provee de una base para la investigación, programas de coservación y manejo de recursos. Se recomienda para futuros trabajos muestreos en escalas más amplias de tiempo
+
+keywords: 
+- Peces 
+- Biodiversidad 
+- AGRRA 
+- Caracterización date: last-modified 
+bibliography: bibliography.bib 
+format: elsevier-pdf: 
+keep-tex: true 
+journal: 
+name: Journal Name 
+formatting: preprint 
+model: 3p 
+cite-style: super 
+editor: markdown: 
+wrap: 72 
+---
 
 Esta investigación va dedicada al Dr. Edlin Guerra y la Dra. Maria Muciño por guiarnos en la realización de la misma. Tambien a don Chuy por invitarnos unas aguas de coco, una disculpa a este último porque no nos la acabamos y tuvimos que tirar dos porque ya olían gacho, para proximos estudios sugerimos dar nuestra tanda. Abrazo, abrazo, beso, beso, abrazo, abrazo, besote, abracito, beso, besito.
 
