@@ -175,11 +175,11 @@ sitios, el hecho de que sea una de las pocas especies encontradas en El
 Cuyo puede ser un indicio de que esa estrategia es particularmente
 viable. Por otro lado, en Dzilam de Bravo se encuentran rasgos
 morfológicos que facilitan otras estrategias, posiblemente asociadas a
-la presencia de pastos marinos. Entre estas se encuentran: la presencia
-de manchas y rayas en el cuerpo que pueden cumplir la función de evitar
-el ataque de depredadores, ya sea por medio de la intimidación o la
+la presencia de pastos marinos. Entre estas se encuentra la presencia de
+manchas y rayas en el cuerpo que pueden cumplir la función de evitar el
+ataque de depredadores, ya sea por medio de la intimidación o la
 desorientación [@kjernsmo2013], Se encontró tambien un patrón de
-agrupación en el nMDS entre las especies observadas en la mañana y la
+agrupación en el NMDS entre las especies observadas en la mañana y la
 tarde en ambos sitios @fig-mds. La curva de acumulación (fig. no se)
 mostró resultados dentro de lo esperado, puesto que se puede observar la
 asíntota para el sitio de Dzilam de bravo, mientras que la tendencia
