@@ -195,14 +195,18 @@ El protocolo AGRRA para peces brinda una opción de muestreo
 estandarizado y accesible no solo para fines de docencia si no para la
 investigación formal. Se recomienda para próximos trabajos aumentar el
 esfuerzo de muestreo para El Cuyo, así como considerar posibles
-inconvenientes inesperados como la turbidez anormal del agua, se
-reconoce asimismo que la estacionalidad podría estar jugando un papel
-importante en la presencia y ausencia de especies de los sitios, por
-ejemplo, las descargas de agua dulce rica en nutrientes durante la
-primavera y verano [@valle-levinson2011] hacia la costa este de la
-península tiene una tendencia de dispersarse hacia el golfo de México
-[@enriquez2010] cuya influencia podría llegar hasta Dzilam de Bravo y El
-Cuyo.
+inconvenientes inesperados como la turbidez anormal del agua. Se podrían
+adecuar adaptaciones al protocolo para sitios donde la observación no es
+una opción debido a las condiciones ambientales. Se podría optar para
+estos casos por el uso de métodos más invasivos como la extracción de
+ejemplares para poder hacer uso de claves taxonómicas más
+detalladamente. Se reconoce asimismo que la estacionalidad podría estar
+jugando un papel importante en la presencia y ausencia de especies de
+los sitios, por ejemplo, las descargas de agua dulce rica en nutrientes
+durante la primavera y verano [@valle-levinson2011] hacia la costa este
+de la península tiene una tendencia de dispersarse hacia el golfo de
+México [@enriquez2010] cuya influencia podría llegar hasta Dzilam de
+Bravo y El Cuyo.
 
 ## Reconocimiento
 
