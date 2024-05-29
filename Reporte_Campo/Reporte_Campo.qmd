@@ -68,24 +68,33 @@ conservarlos adecuadamente. Los peces en particular son un grupo de
 organismos muy conocido y abundante, tanto que representan casi la mitad
 de las especies de vertebrados a escala global [@bingpeng2018]
 resaltando así su importancia tanto en sistemas naturales como para la
-provisión de servicios ecosistémicos [@rönnbäck2007] . Se sabe sin
-embargo que tanto los peces de agua dulce como los de agua salada son
-amenazados por dramáticos decrementos poblacionales y un riesgo de
-extinción en aumento [@arthington2016]. Por estas razones, es imperante
-conocer los factores que moldean la composición de especies; en el caso
-de sistemas acuáticos, el sustrato juega un papel esencial, ya la
-mayoría de los organismos utilizan un componente de este en algún punto
-de su ciclo de vida [@rönnbäck2007]. Uno de los componentes más
-importantes del sustrato es la vegetación que lo acompaña. Este estudio
-se centra en caracterizar la diversidad de peces en la zona costera,
-para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo; siendo la
-vegetación una caracteristica altamente contrastante, ya que el cuyo al
-ser una zona relativamente más conservada, no está asociado a las
-grandes coberturas de pastos marinos como las que se ven en Dzilam de
-Bravo, un sitio más perturbado, sobre todo por la descarga de agua
-contaminada en el mar [@kantunmanzano2018], se espera que por las
-características ambientales diferentes, la composición de especies en
-ambos sitios sea distinta.
+provisión de servicios ecosistémicos [@rönnbäck2007]. En las praderas de
+pastos marinos en México se pueden encontrar 10 especies de pastos, de
+las cuales, 5 están representadas en la costa norte de Yucatán:
+*Halodule wrightii, Halophila engelmanni, Halophila decipiens
+Syringodium filiforme, Ruppia maritima,* y *Thalassia testudinum*
+[@cervantes2016]*.* Estas especies fungen un papel importante como sitio
+de anidación y escondite de macrofauna.[@mtwananordlund2016]. Se sabe
+sin embargo que tanto los peces de agua dulce como los de agua salada
+son amenazados por dramáticos decrementos poblacionales y un riesgo de
+extinción en aumento [@arthington2016]. Se sabe así mismo que los pastos
+marinos están pasando por una crisis global similar, respaldado por
+numerosos reportes de decrementos poblacionales importantes en los
+ultimos años [@cunha2013]. Por estas razones, es imperante conocer los
+factores que moldean la composición de especies; en el caso de sistemas
+acuáticos, el sustrato juega un papel esencial, ya la mayoría de los
+organismos utilizan un componente de este en algún punto de su ciclo de
+vida [@rönnbäck2007]. Uno de los componentes más importantes del
+sustrato es la vegetación que lo acompaña. Este estudio se centra en
+caracterizar la diversidad de peces en la zona costera, para lo cual
+comparamos dos sitios: Dzilam de Bravo y El Cuyo; siendo la vegetación
+una caracteristica altamente contrastante, ya que el cuyo al ser una
+zona relativamente más conservada, no está asociado a las grandes
+coberturas de pastos marinos como las que se ven en Dzilam de Bravo, un
+sitio más perturbado, sobre todo por la descarga de agua contaminada en
+el mar [@kantunmanzano2018], se espera que por las características
+ambientales diferentes, la composición de especies en ambos sitios sea
+distinta.
 
 # Métodos
 
@@ -157,14 +166,6 @@ Los resultados muestran una composición de especies distintas en ambos
 sitios @fig-mds. Esta diferencia podría deberse a las condiciones
 ambientales, tanto climáticas como fisico-químicas dentro columna de
 agua y el sustrato; así como de la vegetación asociada al fondo marino.
-
-En las praderas de pastos marinos en México se pueden encontrar 10
-especies de pastos, de las cuales, 5 están representadas en la costa
-norte de Yucatán: *Halodule wrightii, Halophila engelmanni, Halophila
-decipiens Syringodium filiforme, Ruppia maritima,* y *Thalassia
-testudinum* [@cervantes2016]*.* Estas especies fungen un papel
-importante como sitio de anidación y escondite de
-macrofauna.[@mtwananordlund2016].
 
 La ausencia de vegetación acuática en El Cuyo implica la ausencia de sus
 servicios ecosistémicos asociados. Es decir, los peces de este sitio
