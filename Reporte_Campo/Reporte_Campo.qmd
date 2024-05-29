@@ -79,22 +79,22 @@ sin embargo que tanto los peces de agua dulce como los de agua salada
 son amenazados por dramáticos decrementos poblacionales y un riesgo de
 extinción en aumento [@arthington2016]. Se sabe así mismo que los pastos
 marinos están pasando por una crisis global similar, respaldado por
-numerosos reportes de decrementos poblacionales importantes en los
-ultimos años [@cunha2013]. Por estas razones, es imperante conocer los
-factores que moldean la composición de especies; en el caso de sistemas
-acuáticos, el sustrato juega un papel esencial, ya la mayoría de los
-organismos utilizan un componente de este en algún punto de su ciclo de
-vida [@rönnbäck2007]. Uno de los componentes más importantes del
-sustrato es la vegetación que lo acompaña. Este estudio se centra en
-caracterizar la diversidad de peces en la zona costera, para lo cual
-comparamos dos sitios: Dzilam de Bravo y El Cuyo; siendo la vegetación
-una caracteristica altamente contrastante, ya que el cuyo al ser una
-zona relativamente más conservada, no está asociado a las grandes
-coberturas de pastos marinos como las que se ven en Dzilam de Bravo, un
-sitio más perturbado, sobre todo por la descarga de agua contaminada en
-el mar [@kantunmanzano2018], se espera que por las características
-ambientales diferentes, la composición de especies en ambos sitios sea
-distinta.
+numerosos reportes de decrementos poblacionales importantes a escala
+global en los ultimos años [@cunha2013]. Por estas razones, es imperante
+conocer los factores que moldean la composición de especies; en el caso
+de sistemas acuáticos, el sustrato juega un papel esencial, ya la
+mayoría de los organismos utilizan un componente de este en algún punto
+de su ciclo de vida [@rönnbäck2007]. Uno de los componentes más
+importantes del sustrato es la vegetación que lo acompaña. Este estudio
+se centra en caracterizar la diversidad de peces en la zona costera,
+para lo cual comparamos dos sitios: Dzilam de Bravo y El Cuyo; siendo la
+vegetación una caracteristica altamente contrastante, ya que el cuyo al
+ser una zona relativamente más conservada, no está asociado a las
+grandes coberturas de pastos marinos como las que se ven en Dzilam de
+Bravo, un sitio más perturbado, sobre todo por la descarga de agua
+contaminada en el mar [@kantunmanzano2018], se espera que por las
+características ambientales diferentes, la composición de especies en
+ambos sitios sea distinta.
 
 # Métodos
 
